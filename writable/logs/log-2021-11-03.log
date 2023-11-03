@@ -1,0 +1,73 @@
+CRITICAL - 2021-11-03 00:04:01 --> Undefined variable: category
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\show_master.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('show_master', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\MasterData.php(21): view('show_master', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\MasterData->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterData))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-03 00:09:33 --> Too few arguments to function App\Controllers\MasterData::edit(), 0 passed in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\MasterData->edit()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterData))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 08:57:41 --> Undefined variable: row
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\show_master.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('show_master', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\MasterData.php(21): view('show_master', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\MasterData->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterData))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-03 09:05:20 --> Too few arguments to function App\Controllers\MasterData::edit(), 0 passed in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\MasterData->edit()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterData))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 09:49:53 --> Call to undefined method CodeIgniter\Session\Session::set_Flashdata()
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\MasterData->edit()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterData))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 09:59:54 --> Undefined variable: category
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\show_master.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('show_master', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\MasterData.php(21): view('show_master', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\MasterData->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterData))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-03 10:09:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ',,,,,)' at line 1
+CRITICAL - 2021-11-03 10:09:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ',,,,,)' at line 1
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO mas...')
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO mas...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO mas...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\MasterData.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO mas...')
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\MasterData->add()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterData))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-03 10:10:16 --> Column count doesn't match value count at row 1
+CRITICAL - 2021-11-03 10:10:16 --> Column count doesn't match value count at row 1
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO mas...')
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO mas...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO mas...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\MasterData.php(44): CodeIgniter\Database\BaseConnection->query('INSERT INTO mas...')
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\MasterData->add()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MasterData))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

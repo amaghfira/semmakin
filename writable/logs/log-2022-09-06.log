@@ -1,0 +1,62 @@
+CRITICAL - 2022-09-06 16:02:59 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\arsip\app\Controllers\Auth.php(56): redirect('survey')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_login()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-06 16:04:57 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(835): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\arsip\app\Controllers\Auth.php(56): redirect('survey')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_login()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-06 16:07:52 --> Class 'App\Models\UploadModel' not found
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-06 16:07:55 --> Class 'App\Models\UploadModel' not found
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-06 16:07:57 --> Class 'App\Models\UploadModel' not found
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-06 16:07:58 --> Class 'App\Models\UploadModel' not found
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-06 16:11:06 --> Undefined variable: selesai
+#0 C:\xampp\htdocs\arsip\app\Views\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Home.php(15): view('home')
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-06 16:14:18 --> Invalid file: show_tabel.php
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('show_tabel.php')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('show_tabel', Array, true)
+#2 C:\xampp\htdocs\arsip\app\Controllers\ShowTabel.php(45): view('show_tabel', Array)
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ShowTabel->index()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShowTabel))
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

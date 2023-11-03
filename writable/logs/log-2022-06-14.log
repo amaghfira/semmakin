@@ -1,0 +1,50 @@
+CRITICAL - 2022-06-14 11:59:42 --> Undefined variable: query
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadC2.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 145, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadC2->simpanExcel()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadC2))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 11:59:53 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264245248 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-14 12:03:03 --> Undefined variable: query
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadC2.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 145, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadC2->simpanExcel()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadC2))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 12:03:45 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 532680704 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-14 12:04:30 --> Undefined variable: query
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadC2.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 145, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadC2->simpanExcel()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadC2))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 12:05:12 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 532680704 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-14 14:26:54 --> Undefined property: App\Controllers\UploadC2New::$session
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadC2New.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 263, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadC2New->simpanExcel()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadC2New))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 14:27:23 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 534777856 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-14 14:30:27 --> Undefined property: App\Controllers\UploadC2New::$session
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadC2New.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 263, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadC2New->simpanExcel()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadC2New))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 14:30:57 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 532680704 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

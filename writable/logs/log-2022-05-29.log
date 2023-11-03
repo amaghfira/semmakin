@@ -1,0 +1,218 @@
+CRITICAL - 2022-05-29 10:19:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:23:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::num_rows()
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:25:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:25:32 --> Call to a member function num_rows() on array
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:26:13 --> Call to a member function num_rows() on array
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:26:40 --> Call to undefined method stdClass::num_rows()
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:26:59 --> Call to a member function num_rows() on array
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 10:27:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(93): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 10:28:18 --> Call to a member function getRow() on array
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 12:25:41 --> Undefined property: stdClass::$persen
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:27:02 --> Undefined variable: persenkoseka
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:27:22 --> Undefined variable: namakoseka
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\pemutakhiran_home.php(335): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 335, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pemutakhiran_ho...', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(107): view('pemutakhiran_ho...', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:27:32 --> Undefined variable: namakoseka
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\pemutakhiran_home.php(335): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 335, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pemutakhiran_ho...', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(107): view('pemutakhiran_ho...', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:29:10 --> Trying to get property 'persen' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:34:22 --> Trying to get property 'persen' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:34:44 --> Trying to get property 'persen' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:35:12 --> Call to a member function getRow() on array
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 12:36:06 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 12:36:23 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 12:36:24 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 12:36:30 --> Trying to get property 'persen' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:53:58 --> Trying to get property 'persen' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:54:43 --> Trying to get property 'persen' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:55:07 --> Trying to get property 'persen' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 12:57:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3
+CRITICAL - 2022-05-29 12:57:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT kode_kab...')
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT kode_kab...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT kode_kab...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(92): CodeIgniter\Database\BaseConnection->query('SELECT kode_kab...')
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 12:57:36 --> Trying to get property 'persen' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:58:25 --> Trying to get property 'bs_updated_new' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:59:03 --> Use of undefined constant persen - assumed 'persen' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 12:59:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 13:02:34 --> Undefined variable: persenkoseka
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 13:03:18 --> Undefined variable: namakoseka
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Pemutakhiranlfsp2020.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemutakhiranlfsp2020->index()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemutakhiranlfsp2020))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

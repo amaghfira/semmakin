@@ -1,0 +1,284 @@
+CRITICAL - 2021-10-30 20:44:57 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(13): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:45:15 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(13): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:14 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:42 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:44 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:45 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:45 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:46 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:46 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:58 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:59 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:59 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:59 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:48:59 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:55:47 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 20:56:40 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 21:00:20 --> Use of undefined constant datatotal - assumed 'datatotal' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getBS()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-30 21:03:06 --> Undefined property: stdClass::$cacah_new
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getBS()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-30 21:04:11 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 21:05:47 --> Undefined variable: total_bs
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(43): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-30 22:09:05 --> file_get_contents(KAB6400.json): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(54): file_get_contents('KAB6400.json')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getMapsData()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-30 22:09:40 --> file_get_contents(http://localhost/monitoring-splf2020/KAB6400.json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(54): file_get_contents('http://localhos...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getMapsData()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-30 22:10:33 --> Trying to get property 'types' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getMapsData()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-30 22:21:24 --> Illegal string offset 'kabkot'
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getMapsData()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-30 22:21:27 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 154353664 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-30 22:25:18 --> Illegal string offset 'kabkot'
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getMapsData()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-30 22:25:20 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 301561368 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-30 22:27:23 --> Illegal string offset 'kabkot'
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getMapsData()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-30 22:28:11 --> Illegal string offset 'kabkotno'
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getMapsData()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-30 22:29:53 --> Undefined index: type
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getMapsData()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-30 22:30:16 --> Use of undefined constant features - assumed 'features' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\GetData.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GetData->getMapsData()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetData))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,110 @@
+CRITICAL - 2022-12-27 10:53:38 --> File not found: uploads/surat_keluar/naskah/Monitoring CKP Bulan November 2022.pdf
+#0 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/surat_k...')
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct('uploads/surat_k...', true)
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('uploads/surat_k...')
+#3 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(352): CodeIgniter\HTTP\Response->download('Monitoring CKP ...', NULL)
+#4 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_naskah_keluar('')
+#5 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 11:21:37 --> File not found: uploads/surat_masuk/naskah/Keputusan Bersama tentang Libur Nasional dan Cuti Bersama (1).pdf
+#0 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/surat_m...')
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct('uploads/surat_m...', true)
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('uploads/surat_m...')
+#3 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(314): CodeIgniter\HTTP\Response->download('Keputusan Bersa...', NULL)
+#4 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_naskah_masuk('')
+#5 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 11:38:20 --> Use of undefined constant WRITEABLE - assumed 'WRITEABLE' (this will throw an Error in a future version of PHP)
+#0 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/u8152743/...', 314, Array)
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_naskah_masuk('')
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-27 11:57:56 --> File not found: uploads/surat_masuk/lampiran/Keputusan Bersama tentang Libur Nasional dan Cuti Bersama (1).pdf
+#0 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/surat_m...')
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct('uploads/surat_m...', true)
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('uploads/surat_m...')
+#3 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(335): CodeIgniter\HTTP\Response->download('Keputusan Bersa...', NULL)
+#4 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_lampiran_masuk('')
+#5 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 16:30:35 --> File not found: writeable/uploadsKeputusan Bersama tentang Libur Nasional dan Cuti Bersama (1).pdf
+#0 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('writeable/uploa...')
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct('writeable/uploa...', true)
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('writeable/uploa...')
+#3 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(315): CodeIgniter\HTTP\Response->download('uploadsKeputusa...', NULL)
+#4 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_naskah_masuk('')
+#5 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 16:31:10 --> File not found: writeable/uploads/Keputusan Bersama tentang Libur Nasional dan Cuti Bersama (1).pdf
+#0 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('writeable/uploa...')
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct('writeable/uploa...', true)
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('writeable/uploa...')
+#3 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(315): CodeIgniter\HTTP\Response->download('Keputusan Bersa...', NULL)
+#4 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_naskah_masuk('')
+#5 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 16:36:55 --> fopen(http://bpskaltim.com/arsip/uploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://bp...', '/home/u8152743/...', 174, Array)
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(174): fopen('http://bpskalti...', 'x+b')
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://bpskalti...')
+#3 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(118): CodeIgniter\HTTP\Files\UploadedFile->move('http://bpskalti...')
+#4 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->submit_masuk()
+#5 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 16:39:58 --> fopen(https://bpskaltim.com/uploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(https://b...', '/home/u8152743/...', 174, Array)
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(174): fopen('https://bpskalt...', 'x+b')
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('https://bpskalt...')
+#3 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(110): CodeIgniter\HTTP\Files\UploadedFile->move('https://bpskalt...')
+#4 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->submit_masuk()
+#5 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 17:00:54 --> Call to undefined function App\Controllers\force_download()
+#0 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_naskah_masuk('')
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-27 17:02:20 --> Undefined variable: response
+#0 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(318): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u8152743/...', 318, Array)
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_naskah_masuk('')
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-27 17:02:38 --> File not found: /home/u8152743/public_html/arsip/writable/uploads/
+#0 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/home/u8152743/...')
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct('/home/u8152743/...', true)
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('/home/u8152743/...')
+#3 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(318): CodeIgniter\HTTP\Response->download('', NULL)
+#4 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_naskah_masuk('')
+#5 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-27 17:05:03 --> File not found: uploads/surat_masuk/lampiran/[Invoice] 12APQ119E95B.pdf
+#0 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/surat_m...')
+#1 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct('uploads/surat_m...', true)
+#2 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('uploads/surat_m...')
+#3 /home/u8152743/public_html/arsip/app/Controllers/Naskah.php(338): CodeIgniter\HTTP\Response->download('[Invoice] 12APQ...', NULL)
+#4 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Naskah->download_lampiran_masuk('')
+#5 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 /home/u8152743/public_html/arsip/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u8152743/public_html/arsip/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

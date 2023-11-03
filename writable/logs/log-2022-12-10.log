@@ -1,0 +1,215 @@
+ERROR - 2022-12-10 13:14:38 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-12-10 13:14:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kl...', Array, false)
+#2 C:\xampp\htdocs\arsip\app\Models\KlasifikasiModel.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 C:\xampp\htdocs\arsip\app\Controllers\Klasifikasi.php(41): App\Models\KlasifikasiModel->insertData(Array)
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Klasifikasi->add()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Klasifikasi))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-10 13:14:51 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-12-10 13:14:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\arsip\app\Models\KlasifikasiModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\arsip\app\Controllers\Klasifikasi.php(18): App\Models\KlasifikasiModel->getData()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Klasifikasi->index()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Klasifikasi))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-10 13:14:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-12-10 13:14:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\arsip\app\Models\PegawaiModel.php(44): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(42): App\Models\PegawaiModel->getData()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_masuk()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-10 13:15:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-12-10 13:15:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\arsip\app\Models\PegawaiModel.php(44): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(42): App\Models\PegawaiModel->getData()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_masuk()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-10 13:15:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-12-10 13:15:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\arsip\app\Models\JenisModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(19): App\Models\JenisModel->getData()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jenis->index()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-10 13:35:57 --> Undefined index: klasifikasi4
+#0 C:\xampp\htdocs\arsip\app\Views\klasifikasi.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('klasifikasi', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Klasifikasi.php(24): view('klasifikasi', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Klasifikasi->index()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Klasifikasi))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-10 13:38:32 --> Undefined index: kode
+#0 C:\xampp\htdocs\arsip\app\Views\sifat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('sifat', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Sifat.php(24): view('sifat', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sifat->index()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sifat))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-10 13:40:10 --> Table 'arsip.log_naskah' doesn't exist
+CRITICAL - 2022-12-10 13:40:10 --> Table 'arsip.log_naskah' doesn't exist
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(91): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(272): App\Models\NaskahModel->getLogMasuk()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->log_naskah_masuk()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-10 13:48:50 --> Table 'arsip.indeks_org' doesn't exist
+CRITICAL - 2022-12-10 13:48:50 --> Table 'arsip.indeks_org' doesn't exist
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\IndeksModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(69): App\Models\IndeksModel->getData()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_keluar()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-10 14:02:50 --> Table 'arsip.nomor_surat' doesn't exist
+CRITICAL - 2022-12-10 14:02:50 --> Table 'arsip.nomor_surat' doesn't exist
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `indeks_...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `indeks_...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `indeks_...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `indeks_...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(415): App\Models\NaskahModel->getIndeksBidang('64522')
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64522')
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-10 14:02:53 --> Table 'arsip.nomor_surat' doesn't exist
+CRITICAL - 2022-12-10 14:02:53 --> Table 'arsip.nomor_surat' doesn't exist
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `indeks_...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `indeks_...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `indeks_...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `indeks_...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(415): App\Models\NaskahModel->getIndeksBidang('64561')
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-10 14:18:15 --> Table 'arsip.nomor_surat' doesn't exist
+CRITICAL - 2022-12-10 14:18:15 --> Table 'arsip.nomor_surat' doesn't exist
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `indeks_...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `indeks_...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `indeks_...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `indeks_...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(415): App\Models\NaskahModel->getIndeksBidang('64511')
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64511')
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-10 14:20:15 --> Unknown column 'indeks_bid' in 'field list'
+CRITICAL - 2022-12-10 14:20:15 --> Unknown column 'indeks_bid' in 'field list'
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `indeks_...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `indeks_...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `indeks_...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `indeks_...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(415): App\Models\NaskahModel->getIndeksBidang('64561')
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-10 14:21:48 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-10 14:22:28 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64562')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-10 14:22:32 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-10 14:22:32 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-10 14:23:36 --> Unknown column 'nomor' in 'field list'
+CRITICAL - 2022-12-10 14:23:36 --> Unknown column 'nomor' in 'field list'
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT MAX(`nom...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(`nom...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(`nom...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNo('64560')
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

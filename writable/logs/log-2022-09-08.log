@@ -1,0 +1,41 @@
+CRITICAL - 2022-09-08 15:01:04 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(75): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/naskah/', '')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_masuk()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-08 16:34:51 --> Table 'arsip.naskahkeluar' doesn't exist
+CRITICAL - 2022-09-08 16:34:51 --> Table 'arsip.naskahkeluar' doesn't exist
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\arsip\app\Models\NaskahKeluarModel.php(52): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(127): App\Models\NaskahKeluarModel->getData()
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->naskah_keluar()
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#10 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-08 16:50:51 --> Undefined variable: klasifikasi
+#0 C:\xampp\htdocs\arsip\app\Views\req_naskah_keluar.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('req_naskah_kelu...', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(69): view('req_naskah_kelu...', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_keluar()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-08 16:51:54 --> Undefined property: App\Controllers\Naskah::$KlasifikasiModel
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_keluar()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,30 @@
+CRITICAL - 2022-09-12 00:06:24 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(162): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/surat_k...', '')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-12 00:07:12 --> Undefined index: tgl_naskah
+#0 C:\xampp\htdocs\arsip\app\Views\daftar_naskah_keluar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('daftar_naskah_k...', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(220): view('daftar_naskah_k...', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->naskah_keluar()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-12 00:13:10 --> Undefined index: tgl_naskah
+#0 C:\xampp\htdocs\arsip\app\Views\daftar_naskah_keluar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('daftar_naskah_k...', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(220): view('daftar_naskah_k...', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->naskah_keluar()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

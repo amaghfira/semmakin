@@ -1,0 +1,11 @@
+CRITICAL - 2021-10-28 10:11:37 --> Undefined index: nama_kec
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(41): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

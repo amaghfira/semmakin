@@ -1,0 +1,199 @@
+ERROR - 2022-12-02 00:02:06 --> Column 'klasifikasi' cannot be null
+CRITICAL - 2022-12-02 00:02:06 --> Column 'klasifikasi' cannot be null
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `na...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `na...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `na...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `na...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(216): App\Models\NaskahModel->insertNaskahKeluar(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-02 00:03:48 --> Column 'klasifikasi' cannot be null
+CRITICAL - 2022-12-02 00:03:48 --> Column 'klasifikasi' cannot be null
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `na...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `na...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `na...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `na...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(216): App\Models\NaskahModel->insertNaskahKeluar(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-02 00:18:03 --> Undefined variable: mas
+#0 C:\xampp\htdocs\arsip\app\Views\jenis.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('jenis', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(25): view('jenis', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jenis->index()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-02 00:18:42 --> Undefined variable: i
+#0 C:\xampp\htdocs\arsip\app\Views\jenis.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('jenis', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(25): view('jenis', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jenis->index()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-02 00:18:56 --> Undefined variable: mas
+#0 C:\xampp\htdocs\arsip\app\Views\jenis.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('jenis', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(25): view('jenis', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jenis->index()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-02 00:41:30 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(14): App\Models\JenisModel->__construct()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Jenis->__construct()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 00:41:56 --> Object of class App\Models\JenisModel could not be converted to string
+#0 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(14): App\Models\JenisModel->__construct()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Jenis->__construct()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 00:42:32 --> Object of class App\Models\JenisModel could not be converted to string
+#0 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(14): App\Models\JenisModel->__construct()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Jenis->__construct()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 00:42:50 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('jenis', Array, true)
+#3 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(25): view('jenis', Array)
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jenis->index()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-02 00:52:05 --> Too few arguments to function App\Controllers\Jenis::edit(), 0 passed in C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jenis->edit()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-02 10:18:25 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('sifat', Array, true)
+#3 C:\xampp\htdocs\arsip\app\Controllers\Sifat.php(24): view('sifat', Array)
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sifat->index()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sifat))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-02 10:20:26 --> Column 'jenis' cannot be null
+CRITICAL - 2022-12-02 10:20:26 --> Column 'jenis' cannot be null
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `je...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `je...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `je...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `je...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\JenisModel.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(36): App\Models\JenisModel->insertData(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jenis->add()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-02 10:22:33 --> Column 'jenis' cannot be null
+CRITICAL - 2022-12-02 10:22:33 --> Column 'jenis' cannot be null
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `je...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `je...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `je...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `je...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\JenisModel.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Jenis.php(36): App\Models\JenisModel->insertData(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Jenis->add()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-02 11:36:18 --> Undefined index: jenis
+#0 C:\xampp\htdocs\arsip\app\Views\klasifikasi.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('klasifikasi', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Klasifikasi.php(24): view('klasifikasi', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Klasifikasi->index()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Klasifikasi))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-02 11:53:15 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('req_naskah_kelu...', Array, true)
+#3 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(78): view('req_naskah_kelu...', Array)
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_keluar()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-02 11:54:06 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('req_naskah_masu...', Array, true)
+#3 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(54): view('req_naskah_masu...', Array)
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_masuk()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-02 11:54:49 --> Call to a member function getResultArray() on array
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_masuk()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-02 11:55:41 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('req_naskah_masu...', Array, true)
+#3 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(54): view('req_naskah_masu...', Array)
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_masuk()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-02 11:56:29 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('req_naskah_masu...', Array, true)
+#3 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(54): view('req_naskah_masu...', Array)
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_masuk()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-02 12:00:13 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('req_naskah_masu...', Array, true)
+#3 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(54): view('req_naskah_masu...', Array)
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_masuk()
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

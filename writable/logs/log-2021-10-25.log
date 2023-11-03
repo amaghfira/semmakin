@@ -1,0 +1,537 @@
+CRITICAL - 2021-10-25 09:57:35 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\layout\navbar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('layout/navbar', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(10): view('layout/navbar')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 09:57:59 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\layout\navbar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('layout/navbar', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(10): view('layout/navbar')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 09:58:28 --> Undefined index: role
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\layout\sidebar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(11): view('layout/sidebar')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 10:00:34 --> Undefined index: role
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\layout\sidebar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(11): view('layout/sidebar')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 10:05:26 --> Undefined variable: sess
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\layout\sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('layout/sidebar', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(11): view('layout/sidebar')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:35:41 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 526, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Shared...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(11): spl_autoload_call('PHPExcel_Shared...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(6): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(200): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('PHPExcel')
+#8 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): spl_autoload_call('PHPExcel')
+#9 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#10 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#11 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-25 11:37:06 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 526, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Shared...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(11): spl_autoload_call('PHPExcel_Shared...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(6): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(200): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('PHPExcel')
+#8 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): spl_autoload_call('PHPExcel')
+#9 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#10 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#11 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-25 11:39:12 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 538, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Shared...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(11): spl_autoload_call('PHPExcel_Shared...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(6): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(200): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('PHPExcel')
+#8 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): spl_autoload_call('PHPExcel')
+#9 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#10 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#11 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-25 11:39:51 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 2551, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:41:09 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 2672, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:41:45 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 2780, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:42:03 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 3034, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:42:21 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 3166, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:42:48 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 3168, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:51:05 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 3169, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:51:18 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 3891, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:54:46 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 3936, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 11:55:05 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 3942, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 12:38:11 --> Array and string offset access syntax with curly braces is deprecated
+#0 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and strin...', 'C:\\xampp\\htdocs...', 3998, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel\Autoloader.php(79): require()
+#2 [internal function]: PHPExcel_Autoloader::load('PHPExcel_Calcul...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\ThirdParty\PHPExcel\PHPExcel.php(367): spl_autoload_call('PHPExcel_Calcul...')
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): PHPExcel->__construct()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->prosesExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-25 12:50:13 --> Table 'splf2020.siswa' doesn't exist
+CRITICAL - 2021-10-25 12:50:13 --> Table 'splf2020.siswa' doesn't exist
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1561): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(167): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->simpanExcel()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 12:52:56 --> Undefined index: A
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->simpanExcel()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 12:56:31 --> Invalid file: index.php
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(34): view('index', Array)
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-25 13:02:20 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(91): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-25 13:06:24 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(91): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-25 14:07:13 --> Undefined variable: uploads
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(19): view('home', Array)
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 14:46:07 --> File not found: ../public/template_monitoring.csv
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('../public/templ...')
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('../public/templ...', true)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('../public/templ...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Download.php(13): CodeIgniter\HTTP\Response->download('template_monito...', NULL)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Download->index()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 14:48:45 --> File not found: /public/template_monitoring.csv
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/public/templat...')
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('/public/templat...', true)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('/public/templat...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Download.php(13): CodeIgniter\HTTP\Response->download('template_monito...', NULL)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Download->index()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 14:49:03 --> File not found: template_monitoring.csv
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('template_monito...')
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('template_monito...', true)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath('template_monito...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Download.php(13): CodeIgniter\HTTP\Response->download('template_monito...', NULL)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Download->index()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:36:53 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, object given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Object(CodeIgniter\Database\MySQLi\Result), NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(101): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:39:11 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, object given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Object(App\Models\MasterModel), NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(101): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:40:52 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, object given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Object(App\Models\MasterModel), NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(101): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:45:18 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, object given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Object(App\Models\MasterModel), NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(101): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:46:30 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Array, NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(104): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:46:46 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Array, NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(104): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:48:35 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, object given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Object(stdClass), NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(104): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:52:14 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-25 21:53:06 --> Array to string conversion
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 21:54:17 --> Class '1' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-25 21:56:52 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, object given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Object(stdClass), NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(105): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:57:17 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Array, NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(105): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:57:44 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Array, NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(105): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 21:58:06 --> Array to string conversion
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 21:58:30 --> Array to string conversion
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 22:00:50 --> Undefined index: jml_kk_sp
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 22:01:13 --> Undefined index: jml_kk_sp
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 22:01:20 --> Undefined index: jml_kk_sp
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 22:01:27 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Array, NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(105): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 22:02:05 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('jml_kk_sp', Array, NULL)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(105): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 22:05:52 --> Trying to get property 'jml_kk_sp' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 22:08:21 --> Trying to get property 'jml_kk_sp' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 22:08:44 --> Trying to get property 'jml_kk_sp' of non-object
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\UploadKabkot.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\UploadKabkot->importCsvToDb()
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadKabkot))
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-25 22:29:30 --> Undefined index: isLogin
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\layout\header.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(16): view('layout/header')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-25 22:36:23 --> Undefined index: isLogin
+#0 C:\xampp\htdocs\monitoring-splf2020\app\Views\layout\header.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Home.php(16): view('layout/header')
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-25 23:01:00 --> Table 'splf2020.autentifikasi' doesn't exist
+CRITICAL - 2021-10-25 23:01:00 --> Table 'splf2020.autentifikasi' doesn't exist
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT a.*, p.n...')
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, p.n...')
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, p.n...')
+#3 C:\xampp\htdocs\monitoring-splf2020\app\Controllers\Auth.php(34): CodeIgniter\Database\BaseConnection->query('SELECT a.*, p.n...')
+#4 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_login()
+#5 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-25 23:04:04 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_login()
+#1 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\monitoring-splf2020\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\monitoring-splf2020\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

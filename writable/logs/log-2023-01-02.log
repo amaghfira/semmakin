@@ -1,0 +1,116 @@
+CRITICAL - 2023-01-02 08:54:24 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('15')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-02 08:57:36 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData(NULL)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-02 08:57:42 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData(NULL)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-02 10:31:55 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('16')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-02 11:12:27 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('16')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-02 11:13:26 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('16')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-02 13:59:05 --> Unknown column 'nomor' in 'field list'
+CRITICAL - 2023-01-02 13:59:05 --> Unknown column 'nomor' in 'field list'
+#0 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `naskah_...')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `naskah_...')
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `naskah_...')
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `naskah_...', Array, false)
+#4 C:\xampp\htdocs\arsip-cpanel\app\Models\NaskahModel.php(143): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(489): App\Models\NaskahModel->editData('17', Array)
+#6 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->edit_naskah_masuk()
+#7 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-02 13:59:58 --> Unknown column 'nomor' in 'field list'
+CRITICAL - 2023-01-02 13:59:58 --> Unknown column 'nomor' in 'field list'
+#0 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `naskah_...')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `naskah_...')
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `naskah_...')
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `naskah_...', Array, false)
+#4 C:\xampp\htdocs\arsip-cpanel\app\Models\NaskahModel.php(143): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(489): App\Models\NaskahModel->editData('17', Array)
+#6 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->edit_naskah_masuk()
+#7 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-02 14:15:36 --> Undefined index: pengirim
+#0 C:\xampp\htdocs\arsip-cpanel\app\Views\daftar_naskah_keluar.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('daftar_naskah_k...', Array, true)
+#4 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(278): view('daftar_naskah_k...', Array)
+#5 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->naskah_keluar()
+#6 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#7 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-02 15:18:59 --> Undefined index: tembusaneksternal
+#0 C:\xampp\htdocs\arsip-cpanel\app\Views\daftar_naskah_keluar.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('daftar_naskah_k...', Array, true)
+#4 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(278): view('daftar_naskah_k...', Array)
+#5 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->naskah_keluar()
+#6 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#7 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-02 15:54:27 --> Unknown column 'tujuaninternal' in 'field list'
+CRITICAL - 2023-01-02 15:54:27 --> Unknown column 'tujuaninternal' in 'field list'
+#0 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `naskah_...')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `naskah_...')
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `naskah_...')
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `naskah_...', Array, false)
+#4 C:\xampp\htdocs\arsip-cpanel\app\Models\NaskahModel.php(153): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(557): App\Models\NaskahModel->editDataKeluar('3', Array)
+#6 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->edit_naskah_keluar()
+#7 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-02 15:55:14 --> Unknown column 'tglnaskah' in 'field list'
+CRITICAL - 2023-01-02 15:55:14 --> Unknown column 'tglnaskah' in 'field list'
+#0 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `naskah_...')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `naskah_...')
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `naskah_...')
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `naskah_...', Array, false)
+#4 C:\xampp\htdocs\arsip-cpanel\app\Models\NaskahModel.php(153): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(557): App\Models\NaskahModel->editDataKeluar('3', Array)
+#6 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->edit_naskah_keluar()
+#7 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

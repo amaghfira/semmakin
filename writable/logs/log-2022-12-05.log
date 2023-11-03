@@ -1,0 +1,195 @@
+CRITICAL - 2022-12-05 12:25:47 --> Undefined index: kode
+#0 C:\xampp\htdocs\arsip\app\Views\req_naskah_keluar.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 282, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('req_naskah_kelu...', Array, true)
+#4 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(82): view('req_naskah_kelu...', Array)
+#5 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->reg_keluar()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-05 15:59:06 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('SELECT MAX(`nom...', Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT MAX(`nom...', Array)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#5 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNomor(Object(CodeIgniter\Database\MySQLi\Result))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-05 16:05:42 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('SELECT MAX(`nom...', Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT MAX(`nom...', Array)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#5 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNomor(Object(CodeIgniter\Database\MySQLi\Result))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64532')
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-05 16:07:42 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('SELECT MAX(`nom...', Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT MAX(`nom...', Array)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#5 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNo(Object(CodeIgniter\Database\MySQLi\Result))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-05 16:07:46 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('SELECT MAX(`nom...', Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT MAX(`nom...', Array)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#5 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNo(Object(CodeIgniter\Database\MySQLi\Result))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64523')
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-05 16:17:03 --> Too few arguments to function App\Controllers\Naskah::getNomor(), 0 passed in C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-05 16:17:36 --> Too few arguments to function App\Controllers\Naskah::getNomor(), 0 passed in C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor()
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-05 16:17:49 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('SELECT MAX(`nom...', Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT MAX(`nom...', Array)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#5 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNo(Object(CodeIgniter\Database\MySQLi\Result))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-05 16:19:44 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('SELECT MAX(`nom...', Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT MAX(`nom...', Array)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#5 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNo(Object(stdClass))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-05 16:21:12 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('SELECT MAX(`nom...', Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT MAX(`nom...', Array)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#5 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNo(Object(CodeIgniter\Database\MySQLi\Result))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-05 16:25:11 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('SELECT MAX(`nom...', Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT MAX(`nom...', Array)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#5 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNo(Object(CodeIgniter\Database\MySQLi\Result))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-05 16:25:12 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('SELECT MAX(`nom...', Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('SELECT MAX(`nom...', Array)
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`nom...', Array, false)
+#5 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(137): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): App\Models\NaskahModel->getNo(Object(CodeIgniter\Database\MySQLi\Result))
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#9 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-05 16:26:36 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-05 16:27:57 --> Undefined property: stdClass::$nomor
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64561')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-05 16:34:37 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64560')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-05 16:34:44 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64563')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-05 16:34:58 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64530')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-05 16:35:15 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64563')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-05 16:51:13 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64520')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-05 17:05:05 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 417, Array)
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->getNomor('64560')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,11 @@
+dari req_naskah_keluar
+
+<select name="klasifikasi_naskah_id" id="klasifikasi_naskah_id" class="form-control select2" data-placeholder="Pilih Tingkat Klasifikasi..." required>
+                                    <?php if ($klasifikasi) : ?>
+                                        <?php foreach ($klasifikasi as $k) : ?>
+                                            <option value="<?= $k['klasifikasi'] ?>">
+                                                <?= $k['klasifikasi'] ?>
+                                            </option>
+                                        <?php endforeach; ?>
+                                    <?php endif; ?>
+                                </select>

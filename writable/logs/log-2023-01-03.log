@@ -1,0 +1,72 @@
+ERROR - 2023-01-03 11:53:02 --> Column 'indeks_bid' cannot be null
+ERROR - 2023-01-03 12:00:41 --> Column 'indeks_bid' cannot be null
+CRITICAL - 2023-01-03 12:30:35 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(239): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 239, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 12:33:16 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(240): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 240, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 12:34:13 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 12:34:54 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 12:35:11 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 12:35:37 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 12:35:50 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 12:36:00 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 12:36:12 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-03 12:36:35 --> Trying to get property 'indeks_bid' of non-object
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,91 @@
+ERROR - 2022-12-14 13:58:29 --> Table 'arsip.templates' doesn't exist
+CRITICAL - 2022-12-14 13:58:29 --> Table 'arsip.templates' doesn't exist
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(381): App\Models\NaskahModel->getTemplates()
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->template()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-14 14:19:40 --> Unknown column 'tgl_naskah' in 'field list'
+CRITICAL - 2022-12-14 14:19:40 --> Unknown column 'tgl_naskah' in 'field list'
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `na...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `na...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `na...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `na...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(218): App\Models\NaskahModel->insertNaskahKeluar(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-14 14:21:18 --> Unknown column 'tujuan_internal' in 'field list'
+CRITICAL - 2022-12-14 14:21:18 --> Unknown column 'tujuan_internal' in 'field list'
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `na...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `na...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `na...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `na...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(218): App\Models\NaskahModel->insertNaskahKeluar(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-14 14:22:28 --> Unknown column 'tembusan_internal' in 'field list'
+CRITICAL - 2022-12-14 14:22:28 --> Unknown column 'tembusan_internal' in 'field list'
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `na...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `na...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `na...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `na...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(218): App\Models\NaskahModel->insertNaskahKeluar(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-14 14:23:10 --> Unknown column 'verifikator' in 'field list'
+CRITICAL - 2022-12-14 14:23:10 --> Unknown column 'verifikator' in 'field list'
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `na...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `na...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `na...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `na...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(218): App\Models\NaskahModel->insertNaskahKeluar(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-14 14:23:42 --> Unknown column 'penandatangan' in 'field list'
+CRITICAL - 2022-12-14 14:23:42 --> Unknown column 'penandatangan' in 'field list'
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `na...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `na...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `na...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `na...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(218): App\Models\NaskahModel->insertNaskahKeluar(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-14 14:24:07 --> Unknown column 'ttd' in 'field list'
+CRITICAL - 2022-12-14 14:24:07 --> Unknown column 'ttd' in 'field list'
+#0 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `na...')
+#1 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `na...')
+#2 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `na...')
+#3 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `na...', Array, false)
+#4 C:\xampp\htdocs\arsip\app\Models\NaskahModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\arsip\app\Controllers\Naskah.php(218): App\Models\NaskahModel->insertNaskahKeluar(Array)
+#6 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->submit_keluar()
+#7 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#8 C:\xampp\htdocs\arsip\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\arsip\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,56 @@
+CRITICAL - 2023-01-01 00:39:14 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('15')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-01 00:43:05 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('16')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-01 00:44:36 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('15')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-01 00:46:54 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('16')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-01 00:52:12 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('15')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-01 00:53:24 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('15')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-01 00:54:05 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('16')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-01 00:58:16 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\arsip-cpanel\app\Controllers\Naskah.php(447): App\Models\NaskahModel->deleteData('15')
+#1 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Naskah->delete_naskah_masuk()
+#2 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Naskah))
+#3 C:\xampp\htdocs\arsip-cpanel\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\arsip-cpanel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,347 @@
+<!-- Page Heading -->
+<h1 class="h3 mb-2 text-gray-800">Naskah Masuk</h1>
+<br>
+<div class="card card-primary card-outline" style="border-top: 3px solid #001f3f;">
+    <div class="card-header">
+        Daftar Naskah Masuk
+    </div> <!-- /.card-body -->
+    <div class="card-body">
+        <?php if (session()->has('pesan_add')) : ?>
+            <div class="alert <?= session()->getFlashdata('alert-class') ?>" role="alert">
+                <?= session()->getFlashdata('pesan_add') ?>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        <?php endif; ?>
+        <?php if (session()->has('pesan_find')) : ?>
+            <div class="alert <?= session()->getFlashdata('alert-class') ?>" role="alert">
+                <?= session()->getFlashdata('pesan_find') ?>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        <?php endif; ?>
+        <?php if (session()->has('pesan_delete')) : ?>
+            <div class="alert <?= session()->getFlashdata('alert-class') ?>" role="alert">
+                <?= session()->getFlashdata('pesan_delete') ?>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        <?php endif; ?>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped" id="tabel-master">
+                <thead class="thead-dark">
+                    <tr style="text-align: center;" class="bg-info">
+                        <!-- <th>No</th> -->
+                        <th>Tanggal Naskah</th>
+                        <th>Nomor Naskah</th>
+                        <th>Hal</th>
+                        <th>Asal Naskah</th>
+                        <th>Disposisi</th>
+                        <th>Tingkat Urgensi</th>
+                        <th>Status Berkas</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php if ($naskah) : ?>
+                        <?php foreach ($naskah as $n) : ?>
+                            <tr>
+                                <!-- <td><?php echo $n['id']; ?></td> -->
+                                <td><?php echo $n['tgl_naskah']; ?></td>
+                                <td><?php echo $n['nomor_naskah']; ?></td>
+                                <td><?php echo $n['hal']; ?></td>
+                                <td><?php echo $n['pengirim'] . ' - ' . $n['jabatan'] . ' (' . $n['instansi'] . ')'; ?></td>
+                                <td><?php echo $n['disposisi']; ?></td>
+                                <td><?php echo $n['urgensi']; ?></td>
+                                <td><?php echo $n['status_berkas']; ?></td>
+                                <td>
+                                    <a href="<?= base_url(); ?>/download-naskah-masuk/?id=<?= $n['id']; ?>" class="btn btn-success btn-sm" id="download-naskah">
+                                        <i class="fa fa-file-download" aria-hidden="true"></i>
+                                    </a>
+
+                                    <a href="<?= base_url(); ?>/download-lampiran-masuk/?id=<?= $n['id']; ?>" class="btn btn-primary btn-sm">
+                                        <i class="fa fa-download" aria-hidden="true"></i>
+                                    </a>
+
+                                    <a href="#" class="btn btn-warning btn-sm btn-edit" data-id="<?= $n['id']; ?>" data-sifat="<?= $n['sifat']; ?>" data-pengirim="<?= $n['pengirim']; ?>" data-jabatan="<?= $n['jabatan']; ?>" data-instansi="<?= $n['instansi']; ?>" data-jenis="<?= $n['jenis']; ?>" data-urgensi="<?= $n['urgensi']; ?>" data-nomor="<?= $n['nomor_naskah']; ?>" data-tglnaskah="<?= $n['tgl_naskah']; ?>" data-tglditerima="<?= $n['tgl_diterima']; ?>" data-hal="<?= $n['hal']; ?>" data-ringkasan="<?= $n['ringkasan']; ?>" data-pathnaskah="<?= $n['path_naskah']; ?>" data-pathlampiran="<?= $n['path_lampiran']; ?>" data-tujuan="<?= $n['tujuan']; ?>" data-tembusan="<?= $n['tembusan']; ?>" data-disposisi="<?= $n['disposisi']; ?>">
+                                        <i class="fa fa-edit"></i>
+                                    </a>
+
+                                    <a href="#" class="btn btn-danger btn-sm btn-delete" data-id="<?= $n['id']; ?>">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <!-- <th>No</th> -->
+                        <th>Tanggal Naskah</th>
+                        <th>Nomor Naskah</th>
+                        <th>Hal</th>
+                        <th>Asal Naskah</th>
+                        <th>Disposisi</th>
+                        <th>Tingkat Urgensi</th>
+                        <th>Status Berkas</th>
+                        <th>Aksi</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<!-- Modal -->
+<!-- Modal edit form -->
+<form action="<?= base_url() ?>/naskah-masuk-edit" method="post">
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Naskah Masuk</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label>Nama Pengirim</label>
+                        <input type="text" name="nama_pengirim" id="nama_pengirim" class="form-control pengirim" placeholder="Masukkan nama pengirim..." value="">
+                    </div>
+                    <div class="form-group">
+                        <label>Jabatan Pengirim</label>
+                        <input type="text" name="jabatan_pengirim" id="jabatan_pengirim" class="form-control jabatan" placeholder="Masukkan jabatan pengirim..." value="">
+                    </div>
+                    <div class="form-group">
+                        <label>Instansi Pengirim</label>
+                        <input type="text" name="instansi_pengirim" id="instansi_pengirim" class="form-control instansi" placeholder="Masukkan intansi pengirim..." value="">
+                    </div>
+                    <div class="form-group">
+                        <label>Jenis Naskah</label>
+                        <select name="jenis_naskah_id" id="jenis" class="form-control select2 jenis" data-placeholder="Pilih Jenis Naskah..." required>
+                            <?php if ($jenis) : ?>
+                                <?php foreach ($jenis as $j) : ?>
+                                    <option value="<?= $j['jenis'] ?>">
+                                        <?= $j['jenis'] ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Sifat Naskah</label>
+                        <select name="sifat_naskah_id" id="sifat" class="form-control select2 sifat" data-placeholder="Pilih Sifat Naskah..." required>
+                            <?php if ($sifat) : ?>
+                                <?php foreach ($sifat as $sif) : ?>
+                                    <option value="<?= $sif['sifat'] ?>">
+                                        <?= $sif['sifat'] ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Urgensi Naskah</label>
+                        <select name="urgensi_naskah_id" id="urgensi" class="form-control select2 urgensi" data-placeholder="Pilih Tingkat Urgensi..." required>
+                            <?php if ($urgensi) : ?>
+                                <?php foreach ($urgensi as $urg) : ?>
+                                    <option value="<?= $urg['urgensi'] ?>">
+                                        <?= $urg['urgensi'] ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Nomor Naskah</label>
+                        <input type="text" name="nomor" id="nomor" class="form-control nomor" placeholder="Masukkan nomor naskah..." value="">
+                    </div>
+                    <div class="form-group">
+                        <label>Tanggal Naskah</label>
+                        <input type="text" name="date" class="form-control tglnaskah" id="daterange-single1" value="">
+                    </div>
+                    <div class="form-group">
+                        <label>Tanggal Naskah Diterima</label>
+                        <input type="text" name="received_at" class="form-control tglditerima" id="daterange-single2" value="">
+                    </div>
+                    <div class="form-group">
+                        <label>Hal</label>
+                        <textarea name="hal" rows="7" class="form-control hal" id="hal" placeholder="Masukkan hal..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Isi Naskah</label>
+                        <textarea name="ringkasan" rows="7" class="form-control ringkasan" id="ringkasan" placeholder="Masukkan Isi ringkasan..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>File Naskah</label>
+                        <input type="file" name="file_naskah" class="form-control-uniform-custom pathnaskah" data-show-upload="false" data-show-caption="true" data-show-preview="true" data-fouc required>
+                    </div>
+                    <div class="form-group">
+                        <label>File Lampiran</label>
+                        <input type="file" name="lampiran" class="file-input pathlampiran" multiple="multiple" data-show-upload="false" data-show-caption="true" data-show-preview="true" data-fouc>
+                    </div>
+                    <div class="form-group">
+                        <label>Tujuan Utama</label>
+                        <textarea name="tujuan_id" rows="5" class="form-control tujuan" id="tujuan_id" placeholder="Masukkan tujuan" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Tujuan Tembusan</label>
+                        <textarea name="tembusan_id" rows="5" class="form-control tembusan" id="tembusan_id" placeholder="Masukkan tembusan"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Disposisi</label>
+                        <textarea name="disposisi" rows="5" class="form-control disposisi" id="disposisi" placeholder="Masukkan nama orang"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="id" class="id">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<!-- End modal edit form -->
+
+<!-- Modal delete form -->
+<form action="<?= base_url(); ?>/naskah/delete" method="post">
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hapus Master Data</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <h4>Apakah anda yakin akan menghapus dari master data?</h4>
+
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" name="id" class="id">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                    <button type="submit" class="btn btn-primary">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<!-- End modal delete form -->
+
+<!-- SCRIPT -->
+
+<!-- script modal -->
+<script>
+    $(document).ready(function() {
+
+        // get Edit Product
+        $('.btn-edit').on('click', function() {
+            // get data from button edit
+            const id = $(this).data('id');
+            const sifat = $(this).data('sifat');
+            const pengirim = $(this).data('pengirim');
+            const jabatan = $(this).data('jabatan');
+            const instansi = $(this).data('instansi');
+            const jenis = $(this).data('jenis');
+            const urgensi = $(this).data('urgensi');
+            const nomor = $(this).data('nomor');
+            const tglnaskah = $(this).data('tglnaskah');
+            const tglditerima = $(this).data('tglditerima');
+            const hal = $(this).data('hal');
+            const ringkasan = $(this).data('ringkasan');
+            const pathnaskah = $(this).data('pathnaskah');
+            const pathlampiran = $(this).data('pathlampiran');
+            const tujuan = $(this).data('tujuan');
+            const tembusan = $(this).data('tembusan');
+            const disposisi = $(this).data('disposisi');
+
+            // Set data to Form Edit
+            $('.id').val(id);
+            $('.sifat').val(sifat);
+            $('.pengirim').val(pengirim);
+            $('.jabatan').val(jabatan);
+            $('.instansi').val(instansi);
+            $('.jenis').val(jenis);
+            $('.urgensi').val(urgensi);
+            $('.nomor').val(nomor);
+            $('.tglnaskah').val(tglnaskah);
+            $('.tglditerima').val(tglditerima);
+            $('.hal').val(hal);
+            $('.ringkasan').val(ringkasan);
+            $('.pathnaskah').val(pathnaskah);
+            $('.pathlampiran').val(pathlampiran);
+            $('.tujuan').val(tujuan);
+            $('.tembusan').val(tembusan);
+            $('.disposisi').val(disposisi);
+
+            // Call Modal Edit
+            $('#editModal').modal('show');
+        });
+
+        // get Delete Product
+        $('.btn-delete').on('click', function() {
+            // get data from button edit
+            const id = $(this).data('id');
+            console.log(id);
+            // Set data to Form Edit
+            $('.id').val(id);
+            // Call Modal Edit
+            $('#deleteModal').modal('show');
+        });
+    });
+</script>
+
+<!-- other scripts -->
+<!-- <script>
+    $(function() {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script> -->
+
+<!-- script datatables -->
+<script>
+    $(document).ready(function() {
+
+        $('#tabel-master tfoot th').each(function() {
+            var title = $(this).text();
+            $(this).html('<input type="text" placeholder="Search ' + title + '" />');
+        });
+
+        var tabel = $("#tabel-master").DataTable({
+            "responsive": false,
+            "lengthChange": false,
+            "autoWidth": false,
+            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+            initComplete: function() {
+                // Apply the search
+                this.api().columns().every(function() {
+                    var that = this;
+
+                    $('input', this.footer()).on('keyup change clear', function() {
+                        if (that.search() !== this.value) {
+                            that
+                                .search(this.value)
+                                .draw();
+                        }
+                    });
+                });
+            }
+        });
+
+        tabel.buttons().container()
+            .appendTo('#tabel-master_wrapper .col-md-6:eq(0)');
+
+    });
+</script>
