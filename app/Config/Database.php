@@ -33,9 +33,9 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'arsip',
+        'username' => 'u8152743_ipd',
+        'password' => 'ipd@6400',
+        'database' => 'u8152743_semmakin',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

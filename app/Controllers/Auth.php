@@ -23,34 +23,25 @@ class Auth extends BaseController {
     }
 
     public function valid_login() {
-        $db = \Config\Database::connect('otherDb');
-        // $builder = $db->table('autentifikasi');
-        $db2 = db_connect("otherDb");
-        // $session = session();
+        $db = \Config\Database::connect();
         // ambil data dari form 
         // $data = $this->request->getPost();
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
 
         // cocokkan username post dan db 
-        // $builder->select('username,password,autentifikasi.niplama,p.id_org,p.id_satker');
-        // $builder->from('master_pegawai p');
-        // $builder->where('p.niplama','autentifikasi.niplama');
-        // $builder->where('username',$username);
-        // $query2 = $builder->get();
-        $query = $db2->query("SELECT a.*, p.nama, p.id_org, p.id_satker  FROM autentifikasi a, master_pegawai p WHERE a.niplama = p.niplama AND a.username = '$username'");
+        $query = $db->query("SELECT *  FROM users WHERE username = '$username'");
         $user = $query->getRow();
         if (!empty($user->username)) {
-            if ($user->password != md5($password)) {
+            if ($user->password != sha1($user->salt.$password)) {
                 session()->setFlashData('password','Password Salah');
                 return redirect()->to('auth/login');
             } else {
                 $sessLogin = [
                     'isLogin' => true,
                     'username' => $user->username,
-                    'role' => $user->id_org,
-                    'nama' => $user->nama,
-                    'id_satker' => $user->id_satker
+                    'instansi' => $user->instansi,
+                    'userid'    => $user->userid
                 ];
                 $this->session->set($sessLogin);
                 return redirect('/');
