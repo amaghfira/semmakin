@@ -4,10 +4,10 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class KemiskinanModel extends Model
+class P3keModel extends Model
 {
     // protected $DBGroup              = 'default';
-    // protected $table                = 'naskahs';
+    // protected $table                = 'p3kes';
     // protected $primaryKey           = 'id';
     // protected $useAutoIncrement     = true;
     // protected $insertID             = 0;

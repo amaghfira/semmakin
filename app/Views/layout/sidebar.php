@@ -4,7 +4,8 @@
   <div>
     <div class="brand-logo d-flex align-items-center justify-content-between">
       <a href="<?= base_url(); ?>" class="text-nowrap logo-img">
-        <img src="<?= base_url(); ?>/dist/images/logos/dark-logo.svg" width="180" alt="" />
+        <!-- <img src="<?= base_url(); ?>/dist/images/logos/dark-logo.svg" width="180" alt="" /> -->
+        <h2>LOGO SEMMAKIN</h2>
       </a>
       <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
         <i class="ti ti-x fs-8"></i>
@@ -78,7 +79,7 @@
           <span class="hide-menu">ANALISIS KEMISKINAN</span>
         </li>
         <li class="sidebar-item">
-          <a class="sidebar-link" href="./icon-tabler.html" aria-expanded="false">
+          <a class="sidebar-link" href="<?= base_url(); ?>/visualisasi" aria-expanded="false">
             <span>
               <i class="ti ti-chart-bar"></i>
             </span>

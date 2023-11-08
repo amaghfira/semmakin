@@ -5,14 +5,14 @@
             <div class="card-body">
                 <div class="d-sm-flex d-block align-items-center justify-content-between mb-9">
                     <div class="mb-3 mb-sm-0">
-                        <h5 class="card-title fw-semibold">Sales Overview</h5>
+                        <h5 class="card-title fw-semibold">Jumlah Penduduk Miskin berdasarkan Kecamatan</h5>
                     </div>
                     <div>
                         <select class="form-select">
-                            <option value="1">March 2023</option>
-                            <option value="2">April 2023</option>
-                            <option value="3">May 2023</option>
-                            <option value="4">June 2023</option>
+                            <option value="1">Kec. A</option>
+                            <option value="2">Kec. B</option>
+                            <option value="3">Kec. C</option>
+                            <option value="4">Kec. D</option>
                         </select>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                 <!-- Yearly Breakup -->
                 <div class="card overflow-hidden">
                     <div class="card-body p-4">
-                        <h5 class="card-title mb-9 fw-semibold">Yearly Breakup</h5>
+                        <h5 class="card-title mb-9 fw-semibold">Diagram Lingkaran</h5>
                         <div class="row align-items-center">
                             <div class="col-8">
                                 <h4 class="fw-semibold mb-3">$36,358</h4>
@@ -93,7 +93,7 @@
         <div class="card w-100">
             <div class="card-body p-4">
                 <div class="mb-4">
-                    <h5 class="card-title fw-semibold">Recent Transactions</h5>
+                    <h5 class="card-title fw-semibold">Website Histori</h5>
                 </div>
                 <ul class="timeline-widget mb-0 position-relative mb-n5">
                     <li class="timeline-item d-flex position-relative overflow-hidden">
@@ -102,7 +102,7 @@
                             <span class="timeline-badge border-2 border border-primary flex-shrink-0 my-8"></span>
                             <span class="timeline-badge-border d-block flex-shrink-0"></span>
                         </div>
-                        <div class="timeline-desc fs-3 text-dark mt-n1">Payment received from John Doe of $385.90</div>
+                        <div class="timeline-desc fs-3 text-dark mt-n1">Admin melakukan input DTKS</div>
                     </li>
                     <li class="timeline-item d-flex position-relative overflow-hidden">
                         <div class="timeline-time text-dark flex-shrink-0 text-end">10:00 am</div>
@@ -110,7 +110,7 @@
                             <span class="timeline-badge border-2 border border-info flex-shrink-0 my-8"></span>
                             <span class="timeline-badge-border d-block flex-shrink-0"></span>
                         </div>
-                        <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a>
+                        <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">User A melakukan input data P3KE<a href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a>
                         </div>
                     </li>
                     <li class="timeline-item d-flex position-relative overflow-hidden">
@@ -119,32 +119,7 @@
                             <span class="timeline-badge border-2 border border-success flex-shrink-0 my-8"></span>
                             <span class="timeline-badge-border d-block flex-shrink-0"></span>
                         </div>
-                        <div class="timeline-desc fs-3 text-dark mt-n1">Payment was made of $64.95 to Michael</div>
-                    </li>
-                    <li class="timeline-item d-flex position-relative overflow-hidden">
-                        <div class="timeline-time text-dark flex-shrink-0 text-end">09:30 am</div>
-                        <div class="timeline-badge-wrap d-flex flex-column align-items-center">
-                            <span class="timeline-badge border-2 border border-warning flex-shrink-0 my-8"></span>
-                            <span class="timeline-badge-border d-block flex-shrink-0"></span>
-                        </div>
-                        <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a>
-                        </div>
-                    </li>
-                    <li class="timeline-item d-flex position-relative overflow-hidden">
-                        <div class="timeline-time text-dark flex-shrink-0 text-end">09:30 am</div>
-                        <div class="timeline-badge-wrap d-flex flex-column align-items-center">
-                            <span class="timeline-badge border-2 border border-danger flex-shrink-0 my-8"></span>
-                            <span class="timeline-badge-border d-block flex-shrink-0"></span>
-                        </div>
-                        <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New arrival recorded
-                        </div>
-                    </li>
-                    <li class="timeline-item d-flex position-relative overflow-hidden">
-                        <div class="timeline-time text-dark flex-shrink-0 text-end">12:00 am</div>
-                        <div class="timeline-badge-wrap d-flex flex-column align-items-center">
-                            <span class="timeline-badge border-2 border border-success flex-shrink-0 my-8"></span>
-                        </div>
-                        <div class="timeline-desc fs-3 text-dark mt-n1">Payment Done</div>
+                        <div class="timeline-desc fs-3 text-dark mt-n1">Admin melakukan input P3KE</div>
                     </li>
                 </ul>
             </div>
@@ -155,7 +130,7 @@
             <div class="card-body p-4">
                 <h5 class="card-title fw-semibold mb-4">Recent Transactions</h5>
                 <div class="table-responsive">
-                    <table class="table text-nowrap mb-0 align-middle">
+                    <!-- <table class="table text-nowrap mb-0 align-middle">
                         <thead class="text-dark fs-4">
                             <tr>
                                 <th class="border-bottom-0">
@@ -257,13 +232,13 @@
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table> -->
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm-6 col-xl-3">
         <div class="card overflow-hidden rounded-2">
             <div class="position-relative">
@@ -348,4 +323,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->

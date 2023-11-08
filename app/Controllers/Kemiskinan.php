@@ -3,14 +3,14 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use App\Models\KemiskinanModel;
+use App\Models\P3keModel;
 
 class Kemiskinan extends BaseController
 {
     public function __construct()
     {
         $this->session = session();
-        $this->KemiskinanModel = new KemiskinanModel();
+        $this->P3keModel = new P3keModel();
     }
     
     public function index()
@@ -19,7 +19,7 @@ class Kemiskinan extends BaseController
     }
 
     public function rekap() {
-        $rekap = $this->KemiskinanModel->getP3ke()->getResultArray();
+        $rekap = $this->P3keModel->getP3ke()->getResultArray();
         
         $data['rekap'] = $rekap;
 
@@ -36,7 +36,16 @@ class Kemiskinan extends BaseController
         echo view("layout/header");
         echo view("layout/sidebar");
         echo view("layout/navbar");
-        echo view("kemiskinan/entri_p3ke");
+        echo view("kemiskinan/entri");
+        echo view("layout/footer");
+    }
+
+    public function visualisasi() {
+        // load views
+        echo view("layout/header");
+        echo view("layout/sidebar");
+        echo view("layout/navbar");
+        echo view("kemiskinan/visualisasi");
         echo view("layout/footer");
     }
 }

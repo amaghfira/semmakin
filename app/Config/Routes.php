@@ -38,9 +38,10 @@ $routes->group('', ['filter' => 'authfilter'], function($routes) {
     // $routes->get('/survey', 'Survey::index');
     // pra pemutakhiran lfsp2020
     $routes->get('/', 'Home::index');
-    $routes->get('/entri', 'Kemiskinan::entri');
+    $routes->get('/entri', 'FormController::index');
     $routes->get('/rekap', 'Kemiskinan::rekap');
     $routes->get('/laporan', 'Kemiskinan::laporan');
+    $routes->get('/visualisasi', 'Kemiskinan::visualisasi');
 });
 
 // $routes->get('/', 'Home::index');
