@@ -42,6 +42,7 @@ $routes->group('', ['filter' => 'authfilter'], function($routes) {
     $routes->get('/rekap', 'Kemiskinan::rekap');
     $routes->get('/laporan', 'Kemiskinan::laporan');
     $routes->get('/visualisasi', 'Kemiskinan::visualisasi');
+    $routes->get('/master', 'AdminController::master');
 });
 
 // $routes->get('/', 'Home::index');

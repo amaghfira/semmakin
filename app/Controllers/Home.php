@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\HomeModel;
+use App\Models\P3keModel;
 use App\Models\UploadModel;
 
 class Home extends BaseController
@@ -12,6 +13,7 @@ class Home extends BaseController
     {
         $this->session = session();
         $this->HomeModel = new HomeModel();
+        $this->P3keModel = new P3keModel();
         
     }
 
@@ -24,5 +26,11 @@ class Home extends BaseController
         echo view("layout/navbar");
         echo view("home");
         echo view("layout/footer");
+    }
+
+    public function pendudukByDesilByKec() {
+        $penduduk = $this->P3keModel->getByDesilByKec()->getResultArray();
+
+        return json_encode($penduduk);
     }
 }

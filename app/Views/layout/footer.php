@@ -4,7 +4,7 @@
 </div>
 </div>
 </div>
-<script src="<?= base_url(); ?>/dist/libs/jquery/dist/jquery.min.js"></script>
+
   <script src="<?= base_url(); ?>/dist/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="<?= base_url(); ?>/dist/js/sidebarmenu.js"></script>
   <script src="<?= base_url(); ?>/dist/js/app.min.js"></script>

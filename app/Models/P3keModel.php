@@ -147,4 +147,24 @@ class P3keModel extends Model
         return $this->mastertabel->where('alias','sembako')
                                 ->get();
     }
+
+    public function insertData($array) {
+        if ($this->data->insert($array)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
+    // ===================== //
+    // DATA UNTUK DASHBOOARD //
+    // ===================== //
+
+    public function getByDesilByKec() {
+        return $this->data
+                    ->select('kec, desil, COUNT(desil) as jml_penduduk')
+                    ->groupBy('kec, desil')
+                    ->get();
+    }
 }

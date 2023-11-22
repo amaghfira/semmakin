@@ -8,12 +8,12 @@
                         <h5 class="card-title fw-semibold">Jumlah Penduduk Miskin berdasarkan Kecamatan</h5>
                     </div>
                     <div>
-                        <select class="form-select">
+                        <!-- <select class="form-select">
                             <option value="1">Kec. A</option>
                             <option value="2">Kec. B</option>
                             <option value="3">Kec. C</option>
                             <option value="4">Kec. D</option>
-                        </select>
+                        </select> -->
                     </div>
                 </div>
                 <div id="chart"></div>

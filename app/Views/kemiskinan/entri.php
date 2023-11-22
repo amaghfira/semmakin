@@ -6,6 +6,14 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quas exercitationem cupiditate alias hic accusantium. Itaque id dolore dignissimos atque aperiam illum assumenda ea? Tenetur distinctio cupiditate sequi voluptate fugiat.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, a. Minima perspiciatis blanditiis quibusdam perferendis cumque? Quasi, dolor labore? Autem nostrum maxime facere minima deserunt neque, inventore labore odit molestias!</p>
                 <br>
+                <?php if (session()->has('insert_message')) : ?>
+                    <div class="alert <?= session()->getFlashdata('alert-class') ?>" role="alert">
+                        <?= session()->getFlashdata('insert_message') ?>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                <?php endif; ?>
                 <hr>
                 <div class="mb-3">
                     <label for="formSelector" class="form-label">Jenis Form</label>

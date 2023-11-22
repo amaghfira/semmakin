@@ -91,7 +91,7 @@
           <span class="hide-menu">ADMIN TOOLS</span>
         </li>
         <li class="sidebar-item">
-          <a class="sidebar-link" href="./icon-tabler.html" aria-expanded="false">
+          <a class="sidebar-link" href="<?= base_url(); ?>/master" aria-expanded="false">
             <span>
               <i class="ti ti-mood-happy"></i>
             </span>
