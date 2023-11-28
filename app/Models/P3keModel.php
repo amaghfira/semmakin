@@ -156,15 +156,9 @@ class P3keModel extends Model
         }
     }
 
-
-    // ===================== //
-    // DATA UNTUK DASHBOOARD //
-    // ===================== //
-
-    public function getByDesilByKec() {
-        return $this->data
-                    ->select('kec, desil, COUNT(desil) as jml_penduduk')
-                    ->groupBy('kec, desil')
-                    ->get();
+    public function getMiskinEkstremByDesa() {
+        $query = "SELECT desa, COUNT(*) as value FROM p3ke WHERE desil=1 GROUP BY desa";
+        return $this->db->query($query);
     }
+
 }

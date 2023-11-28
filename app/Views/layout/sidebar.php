@@ -4,8 +4,8 @@
   <div>
     <div class="brand-logo d-flex align-items-center justify-content-between">
       <a href="<?= base_url(); ?>" class="text-nowrap logo-img">
-        <!-- <img src="<?= base_url(); ?>/dist/images/logos/dark-logo.svg" width="180" alt="" /> -->
-        <h2>LOGO SEMMAKIN</h2>
+        <img src="<?= base_url(); ?>/dist/images/logos/logodcnew.png" width="60" alt="" />
+        <!-- <h2>LOGO SEMMAKIN</h2> -->
       </a>
       <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
         <i class="ti ti-x fs-8"></i>
@@ -86,6 +86,7 @@
             <span class="hide-menu">Visualisasi</span>
           </a>
         </li>
+        <?php if (session('role') == 9) : ?>
         <li class="nav-small-cap">
           <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
           <span class="hide-menu">ADMIN TOOLS</span>
@@ -106,12 +107,13 @@
             <span class="hide-menu">Kelola User</span>
           </a>
         </li>
+        <?php endif; ?>
       </ul>
       <div class="unlimited-access hide-menu bg-light-primary position-relative mb-7 mt-5 rounded">
         <div class="d-flex">
           <div class="unlimited-access-title me-3">
             <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Selamat Datang,</h6>
-            <h6>Aulia</h6>
+            <h6><?= session('username'); ?></h6>
           </div>
           <div class="unlimited-access-img">
             <img src="<?= base_url(); ?>/dist/images/backgrounds/rocket.png" alt="" class="img-fluid">

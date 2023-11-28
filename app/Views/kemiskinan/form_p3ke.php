@@ -34,7 +34,7 @@
                         <select name="desil" id="desil" class="form-control form-select" required>
                             <option value="" selected>Pilih Desil...</option>
                             <?php foreach ($desil as $d) : ?>
-                                <option value="<?= $d['value'] ?>"><?= $d['kategori'] ?></option>
+                                <option value="<?= $d['kategori'] ?>"><?= $d['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -55,7 +55,7 @@
                         <select name="padan_dukcapil" id="padan_dukcapil" class="form-control form-select" required>
                             <option value="" selected>Pilih Isian...</option>
                             <?php foreach ($padan as $p) : ?>
-                                <option value="<?= $p['value'] ?>"><?= $p['kategori'] ?></option>
+                                <option value="<?= $p['kategori'] ?>"><?= $p['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -64,7 +64,7 @@
                         <select name="jk" id="jk" class="form-control form-select" required>
                             <option value="" selected>Pilih Isian...</option>
                             <?php foreach ($jk as $j) : ?>
-                                <option value="<?= $j['value'] ?>"><?= $j['kategori'] ?></option>
+                                <option value="<?= $j['kategori'] ?>"><?= $j['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -77,7 +77,7 @@
                         <select name="pekerjaan" id="pekerjaan" class="form-control form-select" required>
                             <option value="" selected>Pilih Pekerjaan...</option>
                             <?php foreach ($pekerjaan as $p) : ?>
-                                <option value="<?= $p['value'] ?>"><?= $p['kategori'] ?></option>
+                                <option value="<?= $p['kategori'] ?>"><?= $p['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -86,7 +86,7 @@
                         <select name="pendidikan" id="pendidikan" class="form-control form-select" required>
                             <option value="" selected>Pilih Isian...</option>
                             <?php foreach ($pendidikan as $pd) : ?>
-                                <option value="<?= $pd['value'] ?>"><?= $pd['kategori'] ?></option>
+                                <option value="<?= $pd['kategori'] ?>"><?= $pd['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -95,7 +95,7 @@
                         <select name="rumah" id="rumah" class="form-control form-select" required>
                             <option value="" selected>Pilih Jenis Kepemilikan...</option>
                             <?php foreach ($rumah as $r) : ?>
-                                <option value="<?= $r['value'] ?>"><?= $r['kategori'] ?></option>
+                                <option value="<?= $r['kategori'] ?>"><?= $r['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -104,7 +104,7 @@
                         <select name="simpanan" id="simpanan" class="form-control form-select" required>
                             <option value="" selected>Pilih Isian...</option>
                             <?php foreach ($simpanan as $s) : ?>
-                                <option value="<?= $s['value'] ?>"><?= $s['kategori'] ?></option>
+                                <option value="<?= $s['kategori'] ?>"><?= $s['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -113,7 +113,7 @@
                         <select name="atap" id="atap" class="form-control form-select" required>
                             <option value="" selected>Pilih Jenis Atap...</option>
                             <?php foreach ($atap as $a) : ?>
-                                <option value="<?= $a['value'] ?>"><?= $a['kategori'] ?></option>
+                                <option value="<?= $a['kategori'] ?>"><?= $a['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -122,7 +122,7 @@
                         <select name="dinding" id="dinding" class="form-control form-select" required>
                             <option value="" selected>Pilih jenis dinding...</option>
                             <?php foreach ($dinding as $d) : ?>
-                                <option value="<?= $d['value'] ?>"><?= $d['kategori'] ?></option>
+                                <option value="<?= $d['kategori'] ?>"><?= $d['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -131,7 +131,7 @@
                         <select name="lantai" id="lantai" class="form-control form-select" required>
                             <option value="" selected>Pilih jenis lantai...</option>
                             <?php foreach ($lantai as $l) : ?>
-                                <option value="<?= $l['value'] ?>"><?= $l['kategori'] ?></option>
+                                <option value="<?= $l['kategori'] ?>"><?= $l['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -140,7 +140,7 @@
                         <select name="penerangan" id="penerangan" class="form-control form-select" required>
                             <option value="" selected>Pilih jenis penerangan...</option>
                             <?php foreach ($penerangan as $p) : ?>
-                                <option value="<?= $p['value'] ?>"><?= $p['kategori'] ?></option>
+                                <option value="<?= $p['kategori'] ?>"><?= $p['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -149,7 +149,7 @@
                         <select name="bahanbakar" id="bahanbakar" class="form-control form-select" required>
                             <option value="" selected>Pilih jenis bahan bakar...</option>
                             <?php foreach ($bahanbakar as $bb) : ?>
-                                <option value="<?= $bb['value'] ?>"><?= $bb['kategori'] ?></option>
+                                <option value="<?= $bb['kategori'] ?>"><?= $bb['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -158,7 +158,7 @@
                         <select name="airminum" id="airminum" class="form-control form-select" required>
                             <option value="" selected>Pilih air minum...</option>
                             <?php foreach ($airminum as $a) : ?>
-                                <option value="<?= $a['value'] ?>"><?= $a['kategori'] ?></option>
+                                <option value="<?= $a['kategori'] ?>"><?= $a['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -167,7 +167,7 @@
                         <select name="bab" id="bab" class="form-control form-select" required>
                             <option value="" selected>Pilih jenis...</option>
                             <?php foreach ($bab as $b) : ?>
-                                <option value="<?= $b['value'] ?>"><?= $b['kategori'] ?></option>
+                                <option value="<?= $b['kategori'] ?>"><?= $b['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -176,7 +176,7 @@
                         <select name="bnpt" id="bnpt" class="form-control form-select" required>
                             <option value="" selected>Pilih jawaban...</option>
                             <?php foreach ($bnpt as $s) : ?>
-                                <option value="<?= $s['value'] ?>"><?= $s['kategori'] ?></option>
+                                <option value="<?= $s['kategori'] ?>"><?= $s['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -185,7 +185,7 @@
                         <select name="bpum" id="bpum" class="form-control form-select" required>
                             <option value="" selected>Pilih jawaban...</option>
                             <?php foreach ($bpum as $s) : ?>
-                                <option value="<?= $s['value'] ?>"><?= $s['kategori'] ?></option>
+                                <option value="<?= $s['kategori'] ?>"><?= $s['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -194,7 +194,7 @@
                         <select name="bst" id="bst" class="form-control form-select" required>
                             <option value="" selected>Pilih jawaban...</option>
                             <?php foreach ($bst as $s) : ?>
-                                <option value="<?= $s['value'] ?>"><?= $s['kategori'] ?></option>
+                                <option value="<?= $s['kategori'] ?>"><?= $s['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -203,7 +203,7 @@
                         <select name="pkh" id="pkh" class="form-control form-select" required>
                             <option value="" selected>Pilih jawaban...</option>
                             <?php foreach ($pkh as $s) : ?>
-                                <option value="<?= $s['value'] ?>"><?= $s['kategori'] ?></option>
+                                <option value="<?= $s['kategori'] ?>"><?= $s['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -212,7 +212,7 @@
                         <select name="sembako" id="sembako" class="form-control form-select" required>
                             <option value="" selected>Pilih jawaban...</option>
                             <?php foreach ($sembako as $s) : ?>
-                                <option value="<?= $s['value'] ?>"><?= $s['kategori'] ?></option>
+                                <option value="<?= $s['kategori'] ?>"><?= $s['kategori'] ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>

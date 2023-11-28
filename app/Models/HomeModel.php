@@ -45,15 +45,57 @@ class HomeModel extends Model
     public function __construct()
     {
         $this->db = db_connect();
+        $this->dataP3ke = $this->db->table('p3ke');
+        // $this->dataDtks = $this->db->table('dtks');
     }
 
-    public function getJmlNaskahMasuk() {
-        $builder = $this->db->table('naskah_masuk');
-        return $builder->countAll();
+    public function getMiskinEkstremByPekerjaan() {
+        return $this->dataP3ke
+                    ->select('pekerjaan, COUNT(*) jml')
+                    ->where('desil',1)
+                    ->groupBy('pekerjaan')
+                    ->get();
     }
 
-    public function getJmlNaskahKeluar() {
-        $builder = $this->db->table('naskah_keluar');
-        return $builder->countAll();
+    public function getMiskinEkstremByPendidikan() {
+        return $this->dataP3ke
+                    ->select('pendidikan, COUNT(*) jml')
+                    ->where('desil',1)
+                    ->groupBy('pendidikan')
+                    ->get();
+    }
+
+    public function getMiskinEkstremByJk() {
+        $query = "
+                    SELECT 
+                        jk as name,
+                        COUNT(jk) / (SELECT COUNT(*) FROM p3ke WHERE desil = 1) * 100 AS y
+                    FROM 
+                        p3ke
+                    WHERE 
+                        desil = 1
+                    GROUP BY 
+                        jk
+                ";
+        return $this->db->query($query);        
+    }
+
+    public function getJmlMiskinEkstrim() {
+        $query = "
+            SELECT COUNT(*) as jmltotal
+            FROM p3ke
+            WHERE desil=1
+            GROUP BY kab
+        ";
+
+        return $this->db->query($query);
+    }
+
+    public function getMiskinEkstremByRumah() {
+        return $this->dataP3ke
+                    ->select('kepemilikan_rumah as name, COUNT(*) as y')
+                    ->where('desil',1)
+                    ->groupBy('kepemilikan_rumah')
+                    ->get();
     }
 }

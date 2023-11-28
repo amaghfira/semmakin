@@ -41,7 +41,8 @@ class Auth extends BaseController {
                     'isLogin' => true,
                     'username' => $user->username,
                     'instansi' => $user->instansi,
-                    'userid'    => $user->userid
+                    'userid'    => $user->userid,
+                    'role'      => $user->role
                 ];
                 $this->session->set($sessLogin);
                 return redirect('/');

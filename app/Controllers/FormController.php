@@ -147,4 +147,9 @@ class FormController extends BaseController
 
         return redirect()->to('/entri');
     }
+
+    function getFormDtks() {
+        $formView = view('kemiskinan/form_dtks');
+        return $this->response->setJSON(['form' => $formView]);
+    }
 }

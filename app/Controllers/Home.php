@@ -19,12 +19,14 @@ class Home extends BaseController
 
     public function index()
     {
+        $jmltot = $this->HomeModel->getJmlMiskinEkstrim()->getRow();
+        $data['jmltot'] = $jmltot;
 
         // load views
         echo view("layout/header");
         echo view("layout/sidebar");
         echo view("layout/navbar");
-        echo view("home");
+        echo view("home", $data);
         echo view("layout/footer");
     }
 
@@ -33,4 +35,31 @@ class Home extends BaseController
 
         return json_encode($penduduk);
     }
+
+    public function miskinEkstremByPekerjaan() {
+        $data = $this->HomeModel->getMiskinEkstremByPekerjaan()->getResultArray();
+
+        // var_dump($data);
+        return json_encode($data);
+    }
+
+    public function miskinEkstremByPendidikan() {
+        $data = $this->HomeModel->getMiskinEkstremByPendidikan()->getResultArray();
+
+        // var_dump($data);
+        return json_encode($data);
+    }
+
+    public function miskinEkstremByJk() {
+        $data = $this->HomeModel->getMiskinEkstremByJk()->getResultArray();
+
+        return json_encode($data);
+    }
+
+    public function miskinEkstremByRumah() {
+        $data = $this->HomeModel->getMiskinEkstremByRumah()->getResultArray();
+
+        return json_encode($data);
+    }
+
 }

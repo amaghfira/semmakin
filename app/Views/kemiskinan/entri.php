@@ -18,6 +18,7 @@
                 <div class="mb-3">
                     <label for="formSelector" class="form-label">Jenis Form</label>
                     <select name="formSelector" id="formSelector" class="form-control form-select">
+                        <option value="">Pilih Form...</option>
                         <option value="dtks">DTKS</option>
                         <option value="p3ke">P3KE</option>
                     </select>
@@ -38,6 +39,14 @@
                 if (selectedForm === "p3ke") {
                     $.ajax({
                         url: '<?= site_url('FormController/getFormP3KE') ?>',
+                        method: 'GET',
+                        success: function(response) {
+                            $('#formContainer').html(response.form);
+                        }
+                    });
+                } else if (selectedForm === "dtks") {
+                    $.ajax({
+                        url: '<?= site_url('FormController/getFormDtks') ?>',
                         method: 'GET',
                         success: function(response) {
                             $('#formContainer').html(response.form);
