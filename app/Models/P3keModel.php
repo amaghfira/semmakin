@@ -161,4 +161,27 @@ class P3keModel extends Model
         return $this->db->query($query);
     }
 
+    public function getMiskinEkstremByDesaByYear($year) {
+        $query = "SELECT kec, desa, COUNT(*) as value FROM p3ke WHERE desil=1 and tahun='$year' GROUP BY desa";
+        return $this->db->query($query);
+    }
+
+    public function getTabel3($year) {
+        $query = "SELECT kec,
+                    Sum(CASE WHEN pekerjaan = 'Tidak/belum bekerja' THEN 1 ELSE 0 END)AS 'Tidak/belum bekerja',
+                    Sum(CASE WHEN pekerjaan = 'Petani' THEN 1 ELSE 0 END)AS 'Petani',
+                    Sum(CASE WHEN pekerjaan = 'Nelayan' THEN 1 ELSE 0 END)AS 'Nelayan',
+                    Sum(CASE WHEN pekerjaan = 'Pedagang' THEN 1 ELSE 0 END)AS 'Pedagang',
+                    Sum(CASE WHEN pekerjaan = 'Wiraswasta' THEN 1 ELSE 0 END)AS 'Wiraswasta',
+                    Sum(CASE WHEN pekerjaan = 'Pegawai Swasta' THEN 1 ELSE 0 END)AS 'Pegawai Swasta',
+                    Sum(CASE WHEN pekerjaan = 'Pekerja Lepas' THEN 1 ELSE 0 END)AS 'Pekerja Lepas',
+                    Sum(CASE WHEN pekerjaan = 'Pensiunan' THEN 1 ELSE 0 END)AS 'Pensiunan',
+                    Sum(CASE WHEN pekerjaan = 'Lainnya' THEN 1 ELSE 0 END)AS 'Lainnya'
+                    
+                FROM p3ke where desil = '1' and tahun='$year'
+                GROUP BY kec
+                ORDER BY kec";
+        return $this->db->query($query);
+    }
+
 }

@@ -40,7 +40,10 @@ $routes->group('', ['filter' => 'authfilter'], function($routes) {
     $routes->get('/', 'Home::index');
     $routes->get('/entri', 'FormController::index');
     $routes->get('/rekap', 'Kemiskinan::rekap');
-    $routes->get('/laporan', 'Kemiskinan::laporan');
+    $routes->get('/analisis', 'LaporanController::index');
+    $routes->get('/analisis-p3ke', 'LaporanController::indexP3ke');
+    $routes->get('/analisis-dtks', 'LaporanController::indexDtks');
+    $routes->get('/analisis-podes', 'LaporanController::indexPodes');
     $routes->get('/visualisasi', 'Kemiskinan::visualisasi');
     $routes->get('/master', 'AdminController::master');
 });

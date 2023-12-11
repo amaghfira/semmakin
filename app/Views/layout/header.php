@@ -9,8 +9,11 @@
   <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
   <link rel="stylesheet" href="<?= base_url(); ?>/dist/css/styles.min.css" />
 
-  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="<?= base_url(); ?>/dist/css/loader.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>/dist/css/custom.css">
 </head>
 
 <body>

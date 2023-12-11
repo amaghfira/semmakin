@@ -30,8 +30,8 @@ class Auth extends BaseController {
         $password = $this->request->getPost('password');
 
         // cocokkan username post dan db 
-        $query = $db->query("SELECT *  FROM users WHERE username = '$username'");
-        $user = $query->getRow();
+        // $query = $db->query("SELECT *  FROM users WHERE username = '$username'");
+        $user = $this->userModel->login($username)->getRow();
         if (!empty($user->username)) {
             if ($user->password != sha1($user->salt.$password)) {
                 session()->setFlashData('password','Password Salah');

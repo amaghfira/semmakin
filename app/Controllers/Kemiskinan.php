@@ -50,15 +50,6 @@ class Kemiskinan extends BaseController
         echo view("layout/footer");
     }
 
-    public function laporan() {
-        // load views
-        echo view("layout/header");
-        echo view("layout/sidebar");
-        echo view("layout/navbar");
-        echo view("kemiskinan/laporan");
-        echo view("layout/footer");
-    }
-
     // VISUALISASI CHOROPLETH MAP KEMISKINAN EKSTREM DATA P3KE 
     public function miskinEkstremByDesa() {
         $data = $this->P3keModel->getMiskinEkstremByDesa()->getResultArray();

@@ -1,0 +1,30 @@
+ERROR - 2023-12-01 11:33:18 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2023-12-01 11:33:18 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\semmakin\app\Models\P3keModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\semmakin\app\Controllers\Kemiskinan.php(23): App\Models\P3keModel->getP3ke()
+#4 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kemiskinan->rekap()
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kemiskinan))
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-12-01 12:37:27 --> Too few arguments to function App\Controllers\LaporanController::getData(), 0 passed in C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-01 12:37:35 --> Too few arguments to function App\Controllers\LaporanController::getData(), 0 passed in C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-01 15:55:56 --> Too few arguments to function App\Controllers\LaporanController::getData(), 0 passed in C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
