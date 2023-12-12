@@ -184,4 +184,12 @@ class P3keModel extends Model
         return $this->db->query($query);
     }
 
+    public function getTabel2($year) {
+        $query = "SELECT kec, 
+                    Sum(CASE WHEN jk = 'Laki-laki' THEN 1 ELSE 0 END)AS 'Laki laki', 
+                    Sum(CASE WHEN jk = 'Perempuan' THEN 1 ELSE 0 END)AS 'Perempuan' 
+                FROM p3ke where desil = '1' and tahun='$year' GROUP BY kec ORDER BY kec;";
+        return $this->db->query($query);
+    }
+
 }

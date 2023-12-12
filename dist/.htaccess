@@ -1,0 +1,7 @@
+# Deny access to this folder from the web
+Deny from all
+
+# Allow access to specific files or directories within this folder
+<FilesMatch "\.(css|js|png|jpg|jpeg|gif|woff|woff2|ttf)$">
+    Allow from all
+</FilesMatch>

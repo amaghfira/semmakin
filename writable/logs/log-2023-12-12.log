@@ -1,0 +1,364 @@
+CRITICAL - 2023-12-12 08:35:31 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php on line 50
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): view('kemiskinan/lapo...', NULL)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 08:35:52 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php on line 50
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): view('kemiskinan/lapo...', NULL)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 08:36:05 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php on line 50
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): view('kemiskinan/lapo...', NULL)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 09:31:01 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php on line 50
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): view('kemiskinan/lapo...', NULL)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 09:31:07 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php on line 50
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): view('kemiskinan/lapo...', NULL)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 09:31:29 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php on line 50
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): view('kemiskinan/lapo...', NULL)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:24:55 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php on line 50
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): view('kemiskinan/lapo...', NULL)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:25:10 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php on line 50
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): view('kemiskinan/lapo...', NULL)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:25:31 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php on line 50
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): view('kemiskinan/lapo...', NULL)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:25:59 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:26:59 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:27:05 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:27:06 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getGrafik()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:29:50 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:29:50 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getGrafik()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:35:24 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getGrafik()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:35:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getGrafik()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:35:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getGrafik()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:40:41 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getGrafik()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 10:40:41 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getGrafik()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:06:07 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:06:16 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:06:18 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:06:22 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:06:22 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:07:15 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:07:40 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:11:57 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:15:55 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:18:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(63): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:26:36 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(59): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:26:40 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(59): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:27:39 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:32:40 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:32:40 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:32:49 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:32:49 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:32:57 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\semmakin\app\Views\kemiskinan\laporan_p3ke_data.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('kemiskinan/lapo...', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): view('kemiskinan/lapo...', Array)
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-12 11:32:57 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:33:07 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:39:22 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:40:23 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:57:22 --> Undefined variable: formView
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getData()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-12 11:57:22 --> Undefined variable: data
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getGrafik()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

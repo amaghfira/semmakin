@@ -19,3 +19,11 @@ CRITICAL - 2023-12-11 08:32:49 --> You must set the database table to be used wi
 #6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 {main}
+CRITICAL - 2023-12-11 15:15:51 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$salt
+#0 C:\xampp\htdocs\semmakin\app\Models\UserModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\semmakin\app\Controllers\Auth.php(33): App\Models\UserModel->login('super', '123456')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_login()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

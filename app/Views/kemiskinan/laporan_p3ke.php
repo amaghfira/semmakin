@@ -11,27 +11,146 @@
     <label for="dropdownYearSelector" class="label">Pilih Jenis Data dan Tahun</label>
     <select id="dropdownDataSelector" class="form-select">
         <option value="pilih">Pilih Data...</option>
-        <option value="2">Jumlah </option>
+        <option value="2">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Jenis Kelamin</option>
         <option value="3">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Pekerjaan</option>
+        <option value="4">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Pendidikan</option>
+        <option value="5">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Status Kepemilikan Rumah</option>
+        <option value="6">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Simpanan</option>
+        <option value="7">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Jenis Atap</option>
+        <option value="8">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Jenis Dinding</option>
+        <option value="9">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Jenis Lantai</option>
+        <option value="10">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Sumber Penerangan</option>
+        <option value="11">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Bahan Bakar Memasak</option>
+        <option value="12">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Sumber Air Minum</option>
+        <option value="13">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Fasilitas BAB</option>
+        <option value="14">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima BNP</option>
+        <option value="15">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima BPU</option>
+        <option value="16">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima BST</option>
+        <option value="17">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima PKH</option>
+        <option value="18">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima Sembako</option>
     </select>
     <select id="dropdownYearSelector" class="form-select">
-        <option value="pilih">Pilih Tahun...</option>
+        <option value="0">Pilih Tahun...</option>
     </select>
 </div>
 
 <script>
-    let dateDropdown = document.getElementById('dropdownYearSelector');
+    $(document).ready(function() {
+        let earliestYear = 2020;
 
-    let currentYear = new Date().getFullYear();
-    let earliestYear = 2020;
-    while (currentYear >= earliestYear) {
-        let dateOption = document.createElement('option');
-        dateOption.text = currentYear;
-        dateOption.value = currentYear;
-        dateOption.style = "display: none;"
-        dateDropdown.add(dateOption);
-        currentYear -= 1;
-    }
+        $("#dropdownDataSelector").change(function() {
+            let currentYear = new Date().getFullYear(); // Reset currentYear on each change
+            var val = $(this).val();
+            let options = `<option value='0'>Pilih Tahun...</option>`;;
+            switch (val) {
+                case "2":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "3":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "4":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "5":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "6":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "7":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "8":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "9":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "10":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "11":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "12":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "13":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "14":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "15":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "16":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "17":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                case "18":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
+                default:
+                    break;
+            }
+            $("#dropdownYearSelector").html(options);
+        });
+    });
 </script>
 
 <br>

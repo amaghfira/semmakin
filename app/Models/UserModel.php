@@ -5,10 +5,6 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class UserModel extends Model {
-    // protected $table = "autentifikasi";
-    // protected $primaryKey = "username";
-    // protected $useTimeStamps = false;
-    // protected $allowedFields = ["username","password","niplama"];
 
     protected $db;
 
@@ -18,9 +14,21 @@ class UserModel extends Model {
         $this->user = $this->db->table('users');
     }
 
-    public function login($username) {
-        return $this->user->where('username',$username)
-                                ->get();
+    public function login($username,$password) {
+        $user = $this->user->where('username',$username)->get()->getRow();
+
+        if (!empty($user->username)) {
+            if ($user->password != sha1($user->salt.$password)) {
+                // jika password tidak sesuai
+                return null;
+            } else {
+                // jika password sesuai
+                return $user;
+            }
+        } else {
+            // jika username not found 
+            return null;
+        }
     }
 }
 

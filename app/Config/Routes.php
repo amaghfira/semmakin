@@ -48,6 +48,13 @@ $routes->group('', ['filter' => 'authfilter'], function($routes) {
     $routes->get('/master', 'AdminController::master');
 });
 
+// Redirect 404 errors to the home page
+$routes->get('dist/(:any)', 'AssetController::serveAsset/$1');
+$routes->set404Override(function () {
+    return redirect()->to('/');
+});
+
+
 // $routes->get('/', 'Home::index');
 // $routes->get('/unggah-file', 'UploadKabkot::index');
 // $routes->post('/import-csv','UploadKabkot::importCsvToDb');

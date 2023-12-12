@@ -42,22 +42,30 @@ class LaporanController extends BaseController
         $this->session->setFlashdata('year', $selectedYear);
         $this->session->setFlashdata('data', $selectedData);
         
+        if ($selectedData == 2) {
+            $tabel3 = $this->P3keModel->getTabel2($this->session->getFlashdata('year'))->getResultArray();
+            $data['id'] = $selectedData;
+            $data['tabel3'] = $tabel3;
+            $formView = view('kemiskinan/analisis/p3ke/tabel2', $data);
+        }
         if ($selectedData == 3) {
             $tabel3 = $this->P3keModel->getTabel3($this->session->getFlashdata('year'))->getResultArray();
+            $data['id'] = $selectedData;
             $data['tabel3'] = $tabel3;
+            $formView = view('kemiskinan/analisis/p3ke/tabel3', $data);
         }
-
-        $formView = view('kemiskinan/laporan_p3ke_data', $data);
         return $this->response->setJSON(['form' => $formView]);
     }
 
     
     // JSON FOR CHARTS
     public function getGrafik() {
+        if ($this->session->getFlashdata('data') == 2) {
+            $data = $this->P3keModel->getTabel2($this->session->getFlashdata('year'))->getResultArray();
+        }
         if ($this->session->getFlashdata('data') == 3) {
             $data = $this->P3keModel->getTabel3($this->session->getFlashdata('year'))->getResultArray();
         }
-
         return json_encode($data);
     }
 
