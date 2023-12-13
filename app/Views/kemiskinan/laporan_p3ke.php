@@ -180,8 +180,8 @@
                             var selectedYear = $(this).val();
                             if (selectedYear) {
                                 var yearAsNumber = parseInt(selectedYear, 10);
-                                // IF YEAR IS CHOSEN AND MORE THAN 2022
-                                if (!isNaN(yearAsNumber) && yearAsNumber >= 2022) {
+                                // IF YEAR IS CHOSEN AND = 2022
+                                if (!isNaN(yearAsNumber) && yearAsNumber == 2022) {
                                     var postData = {
                                         year: selectedYear,
                                         data: selectedData

@@ -1,3 +1,20 @@
+function loadHighcharts() {
+    const highchartsScript = document.createElement('script');
+    highchartsScript.src = 'https://code.highcharts.com/highcharts.js';
+    document.head.appendChild(highchartsScript);
+
+    // const highmapsScript = document.createElement('script');
+    // highmapsScript.src = 'https://code.highcharts.com/maps/highmaps.js';
+    // document.head.appendChild(highmapsScript);
+
+    const exportingScript = document.createElement('script');
+    exportingScript.src = 'https://code.highcharts.com/maps/modules/exporting.js';
+    document.head.appendChild(exportingScript);
+
+    const accessibilityScript = document.createElement('script');
+    accessibilityScript.src = 'https://code.highcharts.com/modules/accessibility.js';
+    document.head.appendChild(accessibilityScript);
+}
 
 function createGrafik() {
     fetch('LaporanController/getGrafik')
@@ -80,4 +97,5 @@ function createGrafik() {
 
 
 // CALL FUNCTIONS
+loadHighcharts();
 createGrafik();

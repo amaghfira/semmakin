@@ -34,7 +34,7 @@ class LaporanController extends BaseController
         echo view("layout/footer");
     }
 
-    // FUNCTION TO SHOW DATA TABLE
+    // FUNCTION TO SHOW JUDUL DAN DATA TABLE 
     public function getData() {
         $selectedYear = $this->request->getPost('year');
         $selectedData = $this->request->getPost('data');
@@ -43,17 +43,18 @@ class LaporanController extends BaseController
         $this->session->setFlashdata('data', $selectedData);
         
         if ($selectedData == 2) {
-            $tabel3 = $this->P3keModel->getTabel2($this->session->getFlashdata('year'))->getResultArray();
-            $data['id'] = $selectedData;
-            $data['tabel3'] = $tabel3;
-            $formView = view('kemiskinan/analisis/p3ke/tabel2', $data);
+            $tabel = $this->P3keModel->getTabel2($this->session->getFlashdata('year'))->getResultArray();
+            $judul = "Jumlah Penduduk Miskin Ekstrem Menurut Kecamatan dan Jenis Kelamin";
         }
         if ($selectedData == 3) {
-            $tabel3 = $this->P3keModel->getTabel3($this->session->getFlashdata('year'))->getResultArray();
-            $data['id'] = $selectedData;
-            $data['tabel3'] = $tabel3;
-            $formView = view('kemiskinan/analisis/p3ke/tabel3', $data);
+            $tabel = $this->P3keModel->getTabel3($this->session->getFlashdata('year'))->getResultArray();
+            $judul = "Jumlah Penduduk Miskin Ekstrem Menurut Kecamatan dan Pekerjaan";
         }
+        $data['id'] = $selectedData;
+        $data['judul'] = $judul;
+        $data['tabel'] = $tabel;
+        $formView = view('kemiskinan/analisis/tabel_p3ke', $data);
+
         return $this->response->setJSON(['form' => $formView]);
     }
 

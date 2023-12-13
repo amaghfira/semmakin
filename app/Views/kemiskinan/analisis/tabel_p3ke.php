@@ -6,7 +6,7 @@
 </style>
 
 <div class="row" id="tabel-3">
-  <h5>Jumlah Penduduk Miskin Ekstrem Menurut Kecamatan dan Jenis Kelamin</h5>
+  <h5><?= $judul; ?></h5>
   <p></p>
 
   <div class="row">
@@ -28,16 +28,16 @@
     <!-- TABEL -->
     <div class="table-responsive">
       <table class="table table-bordered table-striped" id="tabel-master">
-        <?php if (!empty($tabel3) && is_array($tabel3) && count($tabel3) > 0) : ?>
+        <?php if (!empty($tabel) && is_array($tabel) && count($tabel) > 0) : ?>
           <thead>
             <tr>
-              <?php foreach (array_keys($tabel3[0]) as $key) : ?>
+              <?php foreach (array_keys($tabel[0]) as $key) : ?>
                 <th><?= htmlspecialchars($key); ?></th>
               <?php endforeach; ?>
             </tr>
           </thead>
           <tbody>
-            <?php foreach ($tabel3 as $row) : ?>
+            <?php foreach ($tabel as $row) : ?>
               <tr>
                 <?php foreach ($row as $column) : ?>
                   <td><?= htmlspecialchars($column); ?></td>
@@ -100,7 +100,4 @@
 </script>
 
 <!-- HIGH CHARTS -->
-<script src="https://code.highcharts.com/maps/highmaps.js"></script>
-<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/accessibility.js"></script>
 <script src="<?= base_url(); ?>/dist/js/p3ke/p3ke-bar.js"></script>
