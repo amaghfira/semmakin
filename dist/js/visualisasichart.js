@@ -1,3 +1,7 @@
+const highchartsScript = document.createElement('script');
+highchartsScript.src = 'https://code.highcharts.com/maps/highmaps.js';
+document.head.appendChild(highchartsScript);
+
 function createMapP3ke() {
     (async () => {
 
@@ -126,4 +130,4 @@ function createMapDtks() {
 
 // PANGGGIL PETA
 createMapP3ke();
-createMapDtks();
+// createMapDtks();

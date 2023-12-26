@@ -7,6 +7,19 @@
 <h5 class="card-title fw-semibold mb-4"> Analisis Kemiskinan Daerah Data P3KE</h5>
 <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa. Voluptas dolorem tenetur rem voluptates sit deleniti dicta, temporibus ipsam, placeat possimus numquam, aut inventore. Architecto repellendus odit non eos?</p>
 <br>
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title fw-semibold mb-4">Choropleth Map Kemiskinan Ekstrem di Kutai Timur</h5>
+            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eos laboriosam officiis hic provident. Incidunt odio est, voluptatum, rem autem veniam sapiente porro perspiciatis aspernatur, dignissimos eius similique fugiat. Illo.</p>
+
+            <div id="container-map"></div>
+        </div>
+    </div>
+</div>
+
+<br>
 <div class="dropdownYearSelector">
     <label for="dropdownYearSelector" class="label">Pilih Jenis Data dan Tahun</label>
     <select id="dropdownDataSelector" class="form-select">
@@ -28,6 +41,7 @@
         <option value="16">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima BST</option>
         <option value="17">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima PKH</option>
         <option value="18">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima Sembako</option>
+        <option value="19">Jumlah Penduduk Miskin Ekstrem Berdasarkan Desa dan Jenis Kelamin</option>
     </select>
     <select id="dropdownYearSelector" class="form-select">
         <option value="0">Pilih Tahun...</option>
@@ -145,6 +159,12 @@
                         currentYear -= 1;
                     }
                     break;
+                case "19":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                    break;
                 default:
                     break;
             }
@@ -156,10 +176,7 @@
 <br>
 <div class="card">
     <div class="card-body">
-
-
         <div id="dropdownContainer"></div>
-
     </div>
 </div>
 
@@ -213,3 +230,5 @@
         });
     });
 </script>
+
+<script src="<?= base_url(); ?>/dist/js/visualisasichart.js"></script>

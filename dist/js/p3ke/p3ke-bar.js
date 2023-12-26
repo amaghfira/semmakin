@@ -1,29 +1,29 @@
+document.getElementById('container-treemap').innerHTML = ""; 
+document.getElementById('container').innerHTML = ""; 
+
+
 function loadHighcharts() {
-    const highchartsScript = document.createElement('script');
-    highchartsScript.src = 'https://code.highcharts.com/highcharts.js';
-    document.head.appendChild(highchartsScript);
+    // const highchartsScript = document.createElement('script');
+    // highchartsScript.src = 'https://code.highcharts.com/highcharts.js';
+    // document.head.appendChild(highchartsScript);
 
-    // const highmapsScript = document.createElement('script');
-    // highmapsScript.src = 'https://code.highcharts.com/maps/highmaps.js';
-    // document.head.appendChild(highmapsScript);
+    // const exportingScript = document.createElement('script');
+    // exportingScript.src = 'https://code.highcharts.com/maps/modules/exporting.js';
+    // document.head.appendChild(exportingScript);
 
-    const exportingScript = document.createElement('script');
-    exportingScript.src = 'https://code.highcharts.com/maps/modules/exporting.js';
-    document.head.appendChild(exportingScript);
-
-    const accessibilityScript = document.createElement('script');
-    accessibilityScript.src = 'https://code.highcharts.com/modules/accessibility.js';
-    document.head.appendChild(accessibilityScript);
+    // const accessibilityScript = document.createElement('script');
+    // accessibilityScript.src = 'https://code.highcharts.com/modules/accessibility.js';
+    // document.head.appendChild(accessibilityScript);
 }
 
-function createGrafik() {
+async function createGrafik() {
     fetch('LaporanController/getGrafik')
         .then(response => response.json())
         .then(data => {
             // console.log(data);
             // IF DATA IS NULL 
-            if (!data || data.length === 0) {
-                Highcharts.chart('container-tabel', {
+            if (!data || !Array.isArray(data) || data.length === 0) {
+                Highcharts.chart('container', {
                     chart: {
                         type: 'column'
                     },
@@ -63,7 +63,7 @@ function createGrafik() {
                     };
                 });
 
-                Highcharts.chart('container-tabel', {
+                Highcharts.chart('container', {
                     chart: {
                         type: 'column'
                     },

@@ -12,7 +12,8 @@
   <div class="row">
     <!-- GRAFIK -->
     <div class="col-lg-7">
-      <div id="container-tabel"></div>
+      <div id="container"></div>
+      <div id="container-treemap"></div>
     </div>
     <div class="col-lg-1"></div>
     <!-- ANALISIS -->
@@ -100,4 +101,4 @@
 </script>
 
 <!-- HIGH CHARTS -->
-<script src="<?= base_url(); ?>/dist/js/p3ke/p3ke-bar.js"></script>
+<script src="<?= base_url(); ?>/dist/js/p3ke/p3ke-treemap.js"></script>
