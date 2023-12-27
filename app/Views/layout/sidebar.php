@@ -96,9 +96,17 @@
           <li class="sidebar-item">
             <a class="sidebar-link" href="<?= base_url(); ?>/master" aria-expanded="false">
               <span>
-                <i class="ti ti-mood-happy"></i>
+                <i class="ti ti-database"></i>
               </span>
               <span class="hide-menu">Master Data</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link" href="<?= base_url(); ?>/edit" aria-expanded="false">
+              <span>
+                <i class="ti ti-edit-circle"></i>
+              </span>
+              <span class="hide-menu">Edit Data</span>
             </a>
           </li>
           <li class="sidebar-item">

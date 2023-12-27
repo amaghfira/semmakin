@@ -47,6 +47,8 @@ class P3keModel extends Model
         $this->db = db_connect();
         $this->mastertabel = $this->db->table('master_p3ke');
         $this->data = $this->db->table('p3ke');
+        $this->menus = $this->db->table('daftar_analisis');
+        $this->detailMenus = $this->db->table('detail_analisis');
     }
 
     public function getP3ke()
@@ -193,7 +195,30 @@ class P3keModel extends Model
     // GET DATA FOR TABLE AND VISUALIZATION //
     // ------------------------------------ //
 
+    
+    // GET DROPDWOWN MENU 
+    public function getMenus() {
+        return $this->menus->get(); 
+    }
+
+    // GET DESCRIPTION ANALIISIS
+    public function getDescById($id,$tahun) {
+        return $this->detailMenus
+                    ->where('id', $id)
+                    ->where('tahun', $tahun)
+                    ->get();
+    }
+
     // GET DATA BY KEC AND YEAR 
+
+    public function getTabel2($year)
+    {
+        $query = "SELECT kec, 
+                    Sum(CASE WHEN jk = 'Laki-laki' THEN 1 ELSE 0 END)AS 'Laki laki', 
+                    Sum(CASE WHEN jk = 'Perempuan' THEN 1 ELSE 0 END)AS 'Perempuan' 
+                FROM p3ke where desil = '1' and tahun='$year' GROUP BY kec ORDER BY kec;";
+        return $this->db->query($query);
+    }
 
     public function getTabel3($year)
     {
@@ -211,15 +236,6 @@ class P3keModel extends Model
                 FROM p3ke where desil = '1' and tahun='$year'
                 GROUP BY kec
                 ORDER BY kec";
-        return $this->db->query($query);
-    }
-
-    public function getTabel2($year)
-    {
-        $query = "SELECT kec, 
-                    Sum(CASE WHEN jk = 'Laki-laki' THEN 1 ELSE 0 END)AS 'Laki laki', 
-                    Sum(CASE WHEN jk = 'Perempuan' THEN 1 ELSE 0 END)AS 'Perempuan' 
-                FROM p3ke where desil = '1' and tahun='$year' GROUP BY kec ORDER BY kec;";
         return $this->db->query($query);
     }
 

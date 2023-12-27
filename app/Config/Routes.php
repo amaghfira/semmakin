@@ -46,6 +46,7 @@ $routes->group('', ['filter' => 'authfilter'], function($routes) {
     $routes->get('/analisis-podes', 'LaporanController::indexPodes');
     $routes->get('/visualisasi', 'Kemiskinan::visualisasi');
     $routes->get('/master', 'AdminController::master');
+    $routes->get('/edit', 'AdminController::edit');
 });
 
 // Redirect 404 errors to the home page

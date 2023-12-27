@@ -24,24 +24,9 @@
     <label for="dropdownYearSelector" class="label">Pilih Jenis Data dan Tahun</label>
     <select id="dropdownDataSelector" class="form-select">
         <option value="pilih">Pilih Data...</option>
-        <option value="2">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Jenis Kelamin</option>
-        <option value="3">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Pekerjaan</option>
-        <option value="4">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Pendidikan</option>
-        <option value="5">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Status Kepemilikan Rumah</option>
-        <option value="6">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Simpanan</option>
-        <option value="7">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Jenis Atap</option>
-        <option value="8">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Jenis Dinding</option>
-        <option value="9">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Jenis Lantai</option>
-        <option value="10">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Sumber Penerangan</option>
-        <option value="11">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Bahan Bakar Memasak</option>
-        <option value="12">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Sumber Air Minum</option>
-        <option value="13">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Fasilitas BAB</option>
-        <option value="14">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima BNP</option>
-        <option value="15">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima BPU</option>
-        <option value="16">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima BST</option>
-        <option value="17">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima PKH</option>
-        <option value="18">Jumlah Penduduk Miskin Ekstrem Berdasarkan Kecamatan dan Penerima Sembako</option>
-        <option value="19">Jumlah Penduduk Miskin Ekstrem Berdasarkan Desa dan Jenis Kelamin</option>
+        <?php foreach ($menus as $menu) : ?>
+            <option value="<?= $menu['id']; ?>"><?= $menu['nama']; ?></option>
+        <?php endforeach; ?>
     </select>
     <select id="dropdownYearSelector" class="form-select">
         <option value="0">Pilih Tahun...</option>

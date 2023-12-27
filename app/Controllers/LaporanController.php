@@ -27,10 +27,13 @@ class LaporanController extends BaseController
 
     public function indexP3ke()
     {
+        $menus = $this->P3keModel->getMenus()->getResultArray(); 
+        $data['menus'] = $menus;
+
         // load views
         echo view("layout/header");
         echo view("layout/navbar_laporan");
-        echo view("kemiskinan/laporan_p3ke");
+        echo view("kemiskinan/laporan_p3ke", $data);
         echo view("layout/footer");
     }
 
@@ -42,7 +45,14 @@ class LaporanController extends BaseController
 
         $this->session->setFlashdata('year', $selectedYear);
         $this->session->setFlashdata('data', $selectedData);
+
+        $desc = $this->P3keModel->getDescById($selectedData,$selectedYear)->getResult();
+
         if ($selectedData >= 1 && $selectedData <= 18) { // dATA BY KEC
+            if ($selectedData == 1) {
+                // $tabel = $this->P3keModel->getTabel2($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah Penduduk Miskin Ekstrem Menurut Kecamatan dan Desil";
+            }
             if ($selectedData == 2) {
                 $tabel = $this->P3keModel->getTabel2($this->session->getFlashdata('year'))->getResultArray();
                 $judul = "Jumlah Penduduk Miskin Ekstrem Menurut Kecamatan dan Jenis Kelamin";
@@ -114,6 +124,7 @@ class LaporanController extends BaseController
             $data['id'] = $selectedData;
             $data['judul'] = $judul;
             $data['tabel'] = $tabel;
+            $data['deskripsi'] = $desc;
             $formView = view('kemiskinan/analisis/p3ke_kec', $data);
         } else { // DATA BY DESA
             if ($selectedData == 19) {
@@ -123,6 +134,7 @@ class LaporanController extends BaseController
             $data['id'] = $selectedData;
             $data['judul'] = $judul;
             $data['tabel'] = $tabel;
+            $data['deskripsi'] = $desc;
             $formView = view('kemiskinan/analisis/p3ke_desa', $data); 
         }
 

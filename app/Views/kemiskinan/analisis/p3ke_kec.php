@@ -22,7 +22,11 @@
       <h6>Definisi Miskin Ekstrem: </h6>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi minus soluta ad animi odio numquam corporis natus fuga porro ipsa veritatis quia, totam dignissimos iure obcaecati aspernatur aliquid atque.</p>
       <h6>Interpretasi: </h6> 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo maxime deleniti repudiandae quibusdam fugiat enim. Expedita molestias maiores commodi rem eum temporibus nobis sint provident unde repellat facilis, impedit accusamus.</p>
+      <p>
+        <?php foreach ($deskripsi as $des) : ?>
+          <?= $des->deskripsi; ?>
+        <?php endforeach; ?>
+      </p>
     </div>
   </div>
   <div class="row">
