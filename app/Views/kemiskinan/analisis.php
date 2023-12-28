@@ -16,6 +16,7 @@
             <a href="<?= base_url(); ?>/analisis-dtks">
                 <div class="card">
                     <div class="card-body">
+                        <h5>Data DTKS</h5>
                     </div>
                 </div>
             </a>
@@ -24,6 +25,7 @@
             <a href="<?= base_url(); ?>/analisis-podes">
                 <div class="card">
                     <div class="card-body">
+                        <h5>Data PODES</h5>
                     </div>
                 </div>
             </a>

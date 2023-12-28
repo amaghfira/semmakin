@@ -127,9 +127,73 @@ class LaporanController extends BaseController
             $data['deskripsi'] = $desc;
             $formView = view('kemiskinan/analisis/p3ke_kec', $data);
         } else { // DATA BY DESA
-            if ($selectedData == 19) {
-                $tabel = $this->P3keModel->getTabel19($this->session->getFlashdata('year'))->getResultArray();
+            if ($selectedData == 20) {
+                $tabel = $this->P3keModel->getTabel20($this->session->getFlashdata('year'))->getResultArray();
                 $judul = "Jumlah Penduduk Miskin Ekstrem Menurut Desa dan Jenis Kelamin";
+            }
+            if ($selectedData == 21) {
+                $tabel = $this->P3keModel->getTabel21($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan pekerjaan";
+            }
+            if ($selectedData == 22) {
+                $tabel = $this->P3keModel->getTabel22($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan pendidikan";
+            }
+            if ($selectedData == 23) {
+                $tabel = $this->P3keModel->getTabel23($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan status kepemilikan rumah";
+            }
+            if ($selectedData == 24) {
+                $tabel = $this->P3keModel->getTabel24($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan simpanan";
+            }
+            if ($selectedData == 25) {
+                $tabel = $this->P3keModel->getTabel25($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan jenis atap";
+            }
+            if ($selectedData == 26) {
+                $tabel = $this->P3keModel->getTabel26($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan jenis dinding";
+            }
+            if ($selectedData == 27) {
+                $tabel = $this->P3keModel->getTabel27($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan jenis lantai";
+            }
+            if ($selectedData == 28) {
+                $tabel = $this->P3keModel->getTabel28($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan sumber penerangan";
+            }
+            if ($selectedData == 29) {
+                $tabel = $this->P3keModel->getTabel29($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan bahan bakar memasak";
+            }
+            if ($selectedData == 30) {
+                $tabel = $this->P3keModel->getTabel30($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan sumber air minum";
+            }
+            if ($selectedData == 31) {
+                $tabel = $this->P3keModel->getTabel31($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan fasilitas BAB";
+            }
+            if ($selectedData == 32) {
+                $tabel = $this->P3keModel->getTabel32($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan penerima BNP";
+            }
+            if ($selectedData == 33) {
+                $tabel = $this->P3keModel->getTabel33($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan penerima BPU";
+            }
+            if ($selectedData == 34) {
+                $tabel = $this->P3keModel->getTabel34($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan penerima BST";
+            }
+            if ($selectedData == 35) {
+                $tabel = $this->P3keModel->getTabel35($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan penerima PKH";
+            }
+            if ($selectedData == 36) {
+                $tabel = $this->P3keModel->getTabel36($this->session->getFlashdata('year'))->getResultArray();
+                $judul = "Jumlah penduduk miskin ekstrem berdasarkan kecamatan dan penerima sembako";
             }
             $data['id'] = $selectedData;
             $data['judul'] = $judul;
@@ -202,7 +266,58 @@ class LaporanController extends BaseController
     // JSON FOR TREEMAP
     public function getTreemap()
     {
-        $data = $this->P3keModel->getTabel19($this->session->getFlashdata('year'))->getResultArray();
+        // $data = $this->P3keModel->getTabel19($this->session->getFlashdata('year'))->getResultArray();
+        if ($this->session->getFlashdata('data') == 20) {
+            $data = $this->P3keModel->getTabel20($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 21) {
+            $data = $this->P3keModel->getTabel21($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 22) {
+            $data = $this->P3keModel->getTabel22($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 23) {
+            $data = $this->P3keModel->getTabel23($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 24) {
+            $data = $this->P3keModel->getTabel24($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 25) {
+            $data = $this->P3keModel->getTabel25($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 26) {
+            $data = $this->P3keModel->getTabel26($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 27) {
+            $data = $this->P3keModel->getTabel27($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 28) {
+            $data = $this->P3keModel->getTabel28($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 29) {
+            $data = $this->P3keModel->getTabel29($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 30) {
+            $data = $this->P3keModel->getTabel30($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 31) {
+            $data = $this->P3keModel->getTabel31($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 32) {
+            $data = $this->P3keModel->getTabel32($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 33) {
+            $data = $this->P3keModel->getTabel33($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 34) {
+            $data = $this->P3keModel->getTabel34($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 35) {
+            $data = $this->P3keModel->getTabel35($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 36) {
+            $data = $this->P3keModel->getTabel36($this->session->getFlashdata('year'))->getResultArray();
+        }
 
         $newData = [];
         foreach ($data as $row) {

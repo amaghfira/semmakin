@@ -149,6 +149,91 @@
                         options += `<option value='${currentYear}'>${currentYear}</option>`;
                         currentYear -= 1;
                     }
+                case "20":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "21":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "22":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "23":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "24":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "25":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "26":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "27":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "28":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "29":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "30":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "31":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "32":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "33":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "34":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "35":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
+                case "36":
+                    while (currentYear >= earliestYear) {
+                        options += `<option value='${currentYear}'>${currentYear}</option>`;
+                        currentYear -= 1;
+                    }
                     break;
                 default:
                     break;

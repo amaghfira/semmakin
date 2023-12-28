@@ -47,6 +47,10 @@ $routes->group('', ['filter' => 'authfilter'], function($routes) {
     $routes->get('/visualisasi', 'Kemiskinan::visualisasi');
     $routes->get('/master', 'AdminController::master');
     $routes->get('/edit', 'AdminController::edit');
+    $routes->get('/kelola', 'AdminController::kelolaUser');
+    $routes->post('/user/add', 'AdminController::addUser');
+    $routes->post('/user/edit', 'AdminController::editUser');
+    $routes->post('/user/delete', 'AdminController::deleteUser');
 });
 
 // Redirect 404 errors to the home page

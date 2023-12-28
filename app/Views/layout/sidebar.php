@@ -48,6 +48,14 @@
             <span class="hide-menu">Tabel Rekap Data Kemiskinan</span>
           </a>
         </li>
+        <li class="sidebar-item">
+          <a class="sidebar-link" href="<?= base_url(); ?>/analisis" aria-expanded="false">
+            <span>
+              <i class="ti ti-cards"></i>
+            </span>
+            <span class="hide-menu">Analisis</span>
+          </a>
+        </li>
         <li class="nav-small-cap">
           <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
           <span class="hide-menu">DATA PENDUKUNG</span>
@@ -68,26 +76,14 @@
             <span class="hide-menu">Tabel Rekap Data Podes</span>
           </a>
         </li>
-        <li class="nav-small-cap">
-          <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-          <span class="hide-menu">ANALISIS KEMISKINAN</span>
-        </li>
-        <li class="sidebar-item">
+        <!-- <li class="sidebar-item">
           <a class="sidebar-link" href="<?= base_url(); ?>/visualisasi" aria-expanded="false">
             <span>
               <i class="ti ti-chart-bar"></i>
             </span>
             <span class="hide-menu">Visualisasi</span>
           </a>
-        </li>
-        <li class="sidebar-item">
-          <a class="sidebar-link" href="<?= base_url(); ?>/analisis" aria-expanded="false">
-            <span>
-              <i class="ti ti-cards"></i>
-            </span>
-            <span class="hide-menu">Analisis</span>
-          </a>
-        </li>
+        </li> -->
         <?php if (session('role') == 9) : ?>
           <li class="nav-small-cap">
             <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
@@ -110,7 +106,7 @@
             </a>
           </li>
           <li class="sidebar-item">
-            <a class="sidebar-link" href="./icon-tabler.html" aria-expanded="false">
+            <a class="sidebar-link" href="<?= base_url(); ?>/kelola" aria-expanded="false">
               <span>
                 <i class="ti ti-users"></i>
               </span>
@@ -123,7 +119,7 @@
         <div class="d-flex">
           <div class="unlimited-access-title me-3">
             <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Selamat Datang,</h6>
-            <h6><?= session('username'); ?></h6>
+            <h6><?= session('instansi'); ?></h6>
           </div>
           <div class="unlimited-access-img">
             <img src="<?= base_url(); ?>/dist/images/backgrounds/rocket.png" alt="" class="img-fluid">
