@@ -30,6 +30,21 @@ class Home extends BaseController
         echo view("layout/footer");
     }
 
+    public function getP3keHome() {
+        $formView = view('home_p3ke');
+        return $this->response->setJSON(['form' => $formView]);
+    }
+
+    public function getDtksHome() {
+        $formView = view('home_dtks');
+        return $this->response->setJSON(['form' => $formView]);
+    }
+
+    public function getPodesHome() {
+        $formView = view('home_podes');
+        return $this->response->setJSON(['form' => $formView]);
+    }
+
     public function pendudukByDesilByKec() {
         $penduduk = $this->P3keModel->getByDesilByKec()->getResultArray();
 
