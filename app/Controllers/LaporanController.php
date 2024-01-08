@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\P3keModel;
+use App\Models\PodesModel;
 
 class LaporanController extends BaseController
 {
@@ -12,6 +13,7 @@ class LaporanController extends BaseController
     public function __construct()
     {
         $this->P3keModel = new P3keModel();
+        $this->PodesModel = new PodesModel();
         $this->session = session();
     }
 
@@ -27,7 +29,7 @@ class LaporanController extends BaseController
 
     public function indexP3ke()
     {
-        $menus = $this->P3keModel->getMenus()->getResultArray(); 
+        $menus = $this->P3keModel->getMenus()->getResultArray();
         $data['menus'] = $menus;
 
         // load views
@@ -36,6 +38,35 @@ class LaporanController extends BaseController
         echo view("kemiskinan/laporan_p3ke", $data);
         echo view("layout/footer");
     }
+
+    public function indexRekapPodes() { // index utk menu rekap data podes   
+        $menus = $this->PodesModel->getMenus()->getResultArray();
+        $data['menus'] = $menus;
+
+        // load views
+        echo view("layout/header");
+        echo view("layout/sidebar");
+        echo view("layout/navbar");
+        echo view("kemiskinan/laporan_podes", $data);
+        echo view("layout/footer");
+    }
+
+    public function indexPodes()
+    {
+        $menus = $this->PodesModel->getMenus()->getResultArray();
+        $data['menus'] = $menus;
+
+        // load views
+        echo view("layout/header");
+        echo view("layout/navbar_laporan");
+        echo view("kemiskinan/laporan_podes", $data);
+        echo view("layout/footer");
+    }
+
+
+    // ==================================================
+    // P3KE
+    // ==================================================
 
     // FUNCTION TO SHOW JUDUL DAN DATA TABLE 
     public function getData()
@@ -46,7 +77,7 @@ class LaporanController extends BaseController
         $this->session->setFlashdata('year', $selectedYear);
         $this->session->setFlashdata('data', $selectedData);
 
-        $desc = $this->P3keModel->getDescById($selectedData,$selectedYear)->getResult();
+        $desc = $this->P3keModel->getDescById($selectedData, $selectedYear)->getResult();
 
         if ($selectedData >= 1 && $selectedData <= 18) { // dATA BY KEC
             if ($selectedData == 1) {
@@ -199,7 +230,7 @@ class LaporanController extends BaseController
             $data['judul'] = $judul;
             $data['tabel'] = $tabel;
             $data['deskripsi'] = $desc;
-            $formView = view('kemiskinan/analisis/p3ke_desa', $data); 
+            $formView = view('kemiskinan/analisis/p3ke_desa', $data);
         }
 
         return $this->response->setJSON(['form' => $formView]);
@@ -347,5 +378,144 @@ class LaporanController extends BaseController
             }
         }
         echo json_encode($newData);
+    }
+
+    // ==========================================================================
+    // PODES 
+    // ==========================================================================
+
+    public function getDataPodes()
+    {
+        $selectedYear = $this->request->getPost('year');
+        $selectedData = $this->request->getPost('data');
+
+        $this->session->setFlashdata('year', $selectedYear);
+        $this->session->setFlashdata('data', $selectedData);
+
+        $desc = $this->PodesModel->getDescById($selectedData, $selectedYear)->getResult();
+
+        // Define an array to map selectedData to the corresponding getTabel function number
+        $getTabelFunctions = [
+            37 => 'getTabel1',
+            38 => 'getTabel2',
+            39 => 'getTabel3',
+            40 => 'getTabel4',
+            41 => 'getTabel5',
+            42 => 'getTabel6',
+            43 => 'getTabel7',
+            44 => 'getTabel8',
+            45 => 'getTabel9',
+            46 => 'getTabel10',
+            47 => 'getTabel11',
+            48 => 'getTabel12',
+            49 => 'getTabel13',
+            50 => 'getTabel14',
+            51 => 'getTabel15',
+            52 => 'getTabel16',
+            53 => 'getTabel17',
+            54 => 'getTabel18',
+            55 => 'getTabel19',
+            56 => 'getTabel20',
+            57 => 'getTabel21',
+        ];
+
+        if (isset($getTabelFunctions[$selectedData])) {
+            $tabel = $this->PodesModel->{$getTabelFunctions[$selectedData]}($selectedYear)->getResultArray();
+
+            // Define the $judul variable based on selectedData
+            $judul = ($selectedData == 37) ? "Banyaknya Desa/Kelurahan Menurut Sumber Penghasilan Utama Sebagian Besar Penduduk" : 
+            (($selectedData == 38) ? "Banyaknya Desa/Kelurahan Yang Sebagian Besar Penduduknya Bekerja Pada Sektor Pertanian Menurut Jenis Komoditi/Sub Sektor Utama" : 
+            (($selectedData == 39) ? "Banyaknya Desa/Kelurahan Menurut Keberadaan Keluarga Pengguna Listrik dan Sumber Penerangan Jalan Utama Desa" : 
+            (($selectedData == 40) ? "Banyaknya Desa/Kelurahan Menurut Jenis Bahan Bakar Untuk Memasak yang Digunakan Oleh Sebagian Besar Keluarga dan Keberadaan Agen/Penjual Bahan Bakar" : 
+            (($selectedData == 41) ? "Banyaknya Desa/Kelurahan Menurut Sumber Air Minum Sebagian Besar Keluarga" : 
+            (($selectedData == 42) ? "Banyaknya Desa/Kelurahan Menurut Penggunaan Fasilitas Tempat Buang Air Besar Sebagian Besar Keluarga" : 
+            (($selectedData == 43) ? "Banyaknya Desa/Kelurahan Menurut Pembuangan Akhir Tinja sebagain besar keluarga" : (($selectedData == 44) ? "Banyaknya SD/MI, SMP/MTs, SMA/MA, SMK, dan Akademi/Perguruan Tinggi menurut kecamatan" : (($selectedData == 45) ? "Banyaknya SD/MI Negeri dan Swasta Menurut Kecamatan" : 
+            (($selectedData == 46) ? "Banyaknya SMP/MTS Negeri dan Swasta Menurut Kecamatan" : 
+            (($selectedData == 47) ? "Banyaknya SMA/MA Negeri dan Swasta Menurut Kecamatan" : 
+            (($selectedData == 48) ? "Banyaknya SMK Negeri dan Swasta Menurut Kecamatan" : 
+            (($selectedData == 49) ? "Banyaknya Desa/Kelurahan Menurut Kegiatan Posyandu dan Posbindu" : 
+            (($selectedData == 50) ? "(REKAP) Banyaknya Rumah Sakit, Rumah Sakit bersalin, Puskesmas dengan rawat inap, poliklinik, apotek menurut kecamatan" : 
+            (($selectedData == 51) ? "Banyaknya Rumah Sakit dan Rumah Sakit Bersalin Menurut Kecamatan" : 
+            (($selectedData == 52) ? "Banyaknya Puskesmas Menurut Kecamatan" : 
+            (($selectedData == 53) ? "Banyaknya Poliklinik/Balai Pengobatan Menurut Kecamatan" : 
+            (($selectedData == 54) ? "Banyaknya Keberadaan Tenaga Kesehatan dan Dukun Bayi yang Tinggal di Desa menurut Desa/Kelurahan " : 
+            (($selectedData == 55) ? "Banyaknya  Desa/Kelurahan menurut Jenis Prasarana Transportasi" : 
+            (($selectedData == 56) ? "Banyaknya  Desa/Kelurahan  menurut Jenis Ketersediaan Angkutan Umum " : 
+            (($selectedData == 57) ? "Banyaknya Desa/Kelurahan yang Menggunakan Prasarana Transportasi Darat atau Darat dan Air Menurut Jenis Permukaan Jalan Darat Terluas" : "Default Title")))))))))))))))))))); // Replace "Default Title" with the desired default title if needed
+
+        }
+
+        $data['id'] = $selectedData;
+        $data['judul'] = $judul;
+        $data['tabel'] = $tabel;
+        $data['deskripsi'] = $desc;
+        $formView = view('kemiskinan/analisis/podes', $data);
+
+        return $this->response->setJSON(['form' => $formView]);
+    }
+
+    // JSON FOR CHARTS
+    public function getGrafikPodes()
+    {
+        if ($this->session->getFlashdata('data') == 37) {
+            $data = $this->P3keModel->getTabel2($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 38) {
+            $data = $this->P3keModel->getTabel3($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 39) {
+            $data = $this->P3keModel->getTabel4($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 40) {
+            $data = $this->P3keModel->getTabel5($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 41) {
+            $data = $this->P3keModel->getTabel6($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 42) {
+            $data = $this->P3keModel->getTabel7($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 43) {
+            $data = $this->P3keModel->getTabel8($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 44) {
+            $data = $this->P3keModel->getTabel9($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 45) {
+            $data = $this->P3keModel->getTabel10($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 46) {
+            $data = $this->P3keModel->getTabel11($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 47) {
+            $data = $this->P3keModel->getTabel12($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 48) {
+            $data = $this->P3keModel->getTabel13($this->session->getFlashdata('year'))->getResultArray();
+        }
+        return json_encode($data);
+    }
+
+    // --------------------------------------------------------
+    // VISUALISASI CHOROPLETH MAP KEMISKINAN EKSTREM DATA P3KE 
+    // --------------------------------------------------------
+    public function miskinEkstremByDesa()
+    {
+        $data = $this->P3keModel->getMiskinEkstremByDesa()->getResultArray();
+
+        return json_encode($data);
+    }
+
+    public function petaDesa()
+    {
+        $path = WRITEPATH . 'uploads/final_desa_202216404.geojson';
+
+        if (file_exists($path)) {
+            // Read the file contents
+            $geojsonData = file_get_contents($path);
+
+            // Set the content type to JSON
+            return $this->response->setJSON($geojsonData);
+        }
     }
 }

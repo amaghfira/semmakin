@@ -1,0 +1,283 @@
+ERROR - 2024-01-04 15:33:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+CRITICAL - 2024-01-04 15:33:47 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-01-04 15:33:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+CRITICAL - 2024-01-04 15:33:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-01-04 15:33:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 22
+CRITICAL - 2024-01-04 15:33:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-01-04 15:34:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 14
+CRITICAL - 2024-01-04 15:34:39 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-01-04 15:34:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tanpa meteran',
+        CASE WHEN r507a=5 THEN COUNT(r507a) ELSE 0 END AS 'Su...' at line 5
+CRITICAL - 2024-01-04 15:34:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tanpa meteran',
+        CASE WHEN r507a=5 THEN COUNT(r507a) ELSE 0 END AS 'Su...' at line 5
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(144): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel5('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:35:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+CRITICAL - 2024-01-04 15:35:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel1('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:35:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+CRITICAL - 2024-01-04 15:35:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel1('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:36:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+CRITICAL - 2024-01-04 15:36:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel1('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:36:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CASE WHEN r505b=5 THEN COUNT(r505a) ELSE 0 END AS 'Dalam lubang atau tanah te...' at line 6
+CRITICAL - 2024-01-04 15:36:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CASE WHEN r505b=5 THEN COUNT(r505a) ELSE 0 END AS 'Dalam lubang atau tanah te...' at line 6
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(174): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel7('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:36:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+CRITICAL - 2024-01-04 15:36:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel1('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-04 15:36:36 --> Undefined variable: judul
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(448): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 448, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-04 15:37:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 22
+CRITICAL - 2024-01-04 15:37:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 22
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(93): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel2('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:37:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+CRITICAL - 2024-01-04 15:37:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel1('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:40:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+CRITICAL - 2024-01-04 15:40:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM podes_desa_1
+        WHERE tahun = '2021'
+        GROUP BY r104
+        ...' at line 19
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(62): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel1('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:44:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CASE WHEN r505b=5 THEN COUNT(r505a) ELSE 0 END AS 'Dalam lubang atau tanah te...' at line 6
+CRITICAL - 2024-01-04 15:44:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CASE WHEN r505b=5 THEN COUNT(r505a) ELSE 0 END AS 'Dalam lubang atau tanah te...' at line 6
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(167): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel7('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:45:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CASE WHEN r505b=5 THEN COUNT(r505a) ELSE 0 END AS 'Dalam lubang atau tanah te...' at line 6
+CRITICAL - 2024-01-04 15:45:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CASE WHEN r505b=5 THEN COUNT(r505a) ELSE 0 END AS 'Dalam lubang atau tanah te...' at line 6
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(167): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel7('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:49:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tanpa meteran',
+        CASE WHEN r507a=5 THEN COUNT(r507a) ELSE 0 END AS 'Su...' at line 5
+CRITICAL - 2024-01-04 15:49:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tanpa meteran',
+        CASE WHEN r507a=5 THEN COUNT(r507a) ELSE 0 END AS 'Su...' at line 5
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel5('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-04 15:49:39 --> Undefined variable: judul
+#0 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(449): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 449, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-01-04 15:49:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tanpa meteran',
+        CASE WHEN r507a=5 THEN COUNT(r507a) ELSE 0 END AS 'Su...' at line 5
+CRITICAL - 2024-01-04 15:49:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tanpa meteran',
+        CASE WHEN r507a=5 THEN COUNT(r507a) ELSE 0 END AS 'Su...' at line 5
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel5('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-04 15:49:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tanpa meteran',
+        CASE WHEN r507a=5 THEN COUNT(r507a) ELSE 0 END AS 'Su...' at line 5
+CRITICAL - 2024-01-04 15:49:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tanpa meteran',
+        CASE WHEN r507a=5 THEN COUNT(r507a) ELSE 0 END AS 'Su...' at line 5
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT r103n as...')
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT r103n as...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT r103n as...')
+#3 C:\xampp\htdocs\semmakin\app\Models\PodesModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT r103n as...')
+#4 C:\xampp\htdocs\semmakin\app\Controllers\LaporanController.php(423): App\Models\PodesModel->getTabel5('2021')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\LaporanController->getDataPodes()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-04 15:52:42 --> Undefined variable: jmltot
+#0 C:\xampp\htdocs\semmakin\app\Views\home_p3ke.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home_p3ke', Array, true)
+#4 C:\xampp\htdocs\semmakin\app\Controllers\Home.php(34): view('home_p3ke')
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->getP3keHome()
+#6 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -29,7 +29,7 @@
 
   <!-- highcharts -->
   <script src="https://code.highcharts.com/highcharts.js"></script>
-  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/map.js"></script>
   <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
   <script src="https://code.highcharts.com/modules/accessibility.js"></script>
   <script src="https://code.highcharts.com/modules/treemap.js"></script>
