@@ -15,6 +15,11 @@ class AdminModel extends Model
         $this->detailTabel = $this->db->table('detail_analisis');
     }
 
+    public function getMenus()
+    {
+        return $this->menus->get();
+    }
+
     public function insertData($array) {
         if ($this->detailTabel->insert($array)) {
             return true;

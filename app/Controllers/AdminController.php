@@ -125,7 +125,7 @@ class AdminController extends BaseController
 
     public function edit() { //edit deskripsi analisis 
         // get daftar data
-        $menus = $this->P3keModel->getMenus()->getResultArray(); 
+        $menus = $this->AdminModel->getMenus()->getResultArray(); 
         $data['menus'] = $menus;
 
         // load views
