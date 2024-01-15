@@ -54,6 +54,12 @@ $routes->group('', ['filter' => 'authfilter'], function($routes) {
     $routes->get('/rekap-podes', 'LaporanController::indexRekapPodes');
     $routes->get('/update-podes', 'AdminController::formPodes');
     $routes->post('/submit-podes', 'AdminController::submitFormPodes');
+    $routes->get('/unduh-p3ke', 'AdminController::unduh_p3ke');
+    $routes->get('/unduh-podes0', 'AdminController::unduh_podes0');
+    $routes->get('/unduh-podes1', 'AdminController::unduh_podes1');
+    $routes->get('/unduh-podes2', 'AdminController::unduh_podes2');
+    $routes->get('/unduh-podes3', 'AdminController::unduh_podes3');
+    $routes->get('/unduh-podes4', 'AdminController::unduh_podes4');
 });
 
 // Redirect 404 errors to the home page

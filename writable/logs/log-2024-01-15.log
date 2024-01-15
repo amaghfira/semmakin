@@ -31,3 +31,56 @@ CRITICAL - 2024-01-15 10:42:20 --> Undefined variable: jmltot
 #7 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2024-01-15 10:57:14 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 11:11:09 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 11:11:21 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 11:12:13 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 11:12:15 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 11:13:34 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 11:15:10 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 11:15:12 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 11:15:45 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 11:21:42 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}
+CRITICAL - 2024-01-15 12:28:50 --> fputcsv() expects parameter 2 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fputcsv() expec...', 'C:\\xampp\\htdocs...', 215, Array)
+#1 C:\xampp\htdocs\semmakin\app\Controllers\AdminController.php(215): fputcsv(Resource id #208, Object(mysqli))
+#2 C:\xampp\htdocs\semmakin\app\Controllers\AdminController.php(196): App\Controllers\AdminController->arrayToCsv(Object(CodeIgniter\Database\MySQLi\Result))
+#3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\AdminController->unduh_p3ke()
+#4 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-15 12:57:59 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}

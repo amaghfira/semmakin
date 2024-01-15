@@ -539,4 +539,32 @@ class PodesModel extends Model
                         return false;
                 }
         }
+
+        // ----------------------
+        // DATA UNTUK MASTER MENU
+        // ----------------------
+
+        public function getPodesAll() {
+                return $this->podes_kec->get(100);
+        }
+
+        public function getPodes0() {
+                return $this->podes_kec->get();
+        }
+
+        public function getPodes1() {
+                return $this->podes_desa_1->get();
+        }
+
+        public function getPodes2() {
+                return $this->podes_desa_2->get();
+        }
+
+        public function getPodes3() {
+                return $this->podes_desa_3->get();
+        }
+
+        public function getPodes4() {
+                return $this->podes_desa_4->get();
+        }
 }

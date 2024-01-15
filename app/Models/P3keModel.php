@@ -158,6 +158,15 @@ class P3keModel extends Model
         return $this->db->query($query);
     }
 
+    // ----------------- //
+    // UNTUK MASTER MENU //
+    // ----------------- //
+
+    public function getP3keLimit()
+    {
+        return $this->data->get(50);
+    }
+
     // ------------------------------------ //
     // GET DATA FOR TABLE AND VISUALIZATION //
     // ------------------------------------ //

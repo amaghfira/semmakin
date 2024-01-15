@@ -1,123 +1,86 @@
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h6 class="card-title fw-semibold mb-4">Raw data P3KE</h6>
+            <p>Data di bawah ini hanya sampel. Untuk mendapatkan raw data silakan mengunduh file excel.</p>
+            <a type="button" class="btn btn-success" href="<?= base_url(); ?>/unduh-p3ke"><i class="ti ti-download"></i> Unduh data p3ke</a>
+        </div>
+    </div>
+</div>
 <div id="formContainer">
     <div class="table-responsive">
         <table class="table table-bordered table-striped" id="tabel-master">
-            <thead class="thead-dark">
-                <tr style="text-align: center;" class="bg-info">
-                    <!-- <th>No</th> -->
-                    <th>Tahun</th>
-                    <th>ID Keluarga</th>
-                    <th>Provinsi</th>
-                    <th>Kabupaten</th>
-                    <th>Kecamatan</th>
-                    <th>Desa</th>
-                    <th>desil</th>
-                    <th>alamat</th>
-                    <th>kk</th>
-                    <th>nik</th>
-                    <th>padan_dukcapil</th>
-                    <th>jk</th>
-                    <th>tgl_lahir</th>
-                    <th>pekerjaan</th>
-                    <th>pendidikan</th>
-                    <th>kepemilikan_rumah</th>
-                    <th>simpanan</th>
-                    <th>jenis_atap</th>
-                    <th>jenis_dinding</th>
-                    <th>jenis_lantai</th>
-                    <th>sumber_penerangan</th>
-                    <th>bahan_bakar_memasak</th>
-                    <th>sumber_air_minum</th>
-                    <th>fasilitas_bab</th>
-                    <th>penerima_bnpt</th>
-                    <th>penerima_bpum</th>
-                    <th>penerima_bst</th>
-                    <th>penerima_pkh</th>
-                    <th>penerima_sembako</th>
-                    <th>userid</th>
-                    <th>created_at</th>
-                    <th>modified_at</th>
-                    <th>deleted_at</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php if ($master) : ?>
-                    <?php foreach ($master as $n) : ?>
+            <?php if (!empty($p3ke) && is_array($p3ke) && count($p3ke) > 0) : ?>
+                <thead>
+                    <tr>
+                        <?php foreach (array_keys($p3ke[0]) as $key) : ?>
+                            <th><?= htmlspecialchars($key); ?></th>
+                        <?php endforeach; ?>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($p3ke as $row) : ?>
                         <tr>
-                            <td><?php echo $n['tahun']; ?></td>
-                            <td><?php echo $n['id_keluarga']; ?></td>
-                            <td><?php echo $n['prov']; ?></td>
-                            <td><?php echo $n['kab']; ?></td>
-                            <td><?php echo $n['kec']; ?></td>
-                            <td><?php echo $n['desa']; ?></td>
-                            <td><?php echo $n['desil']; ?></td>
-                            <td><?php echo $n['alamat']; ?></td>
-                            <td><?php echo $n['kk']; ?></td>
-                            <td><?php echo $n['nik']; ?></td>
-                            <td><?php echo $n['padan_dukcapil']; ?></td>
-                            <td><?php echo $n['jk']; ?></td>
-                            <td><?php echo $n['tgl_lahir']; ?></td>
-                            <td><?php echo $n['pekerjaan']; ?></td>
-                            <td><?php echo $n['pendidikan']; ?></td>
-                            <td><?php echo $n['kepemilikan_rumah']; ?></td>
-                            <td><?php echo $n['simpanan']; ?></td>
-                            <td><?php echo $n['jenis_atap']; ?></td>
-                            <td><?php echo $n['jenis_dinding']; ?></td>
-                            <td><?php echo $n['jenis_lantai']; ?></td>
-                            <td><?php echo $n['sumber_penerangan']; ?></td>
-                            <td><?php echo $n['bahan_bakar_memasak']; ?></td>
-                            <td><?php echo $n['sumber_air_minum']; ?></td>
-                            <td><?php echo $n['fasilitas_bab']; ?></td>
-                            <td><?php echo $n['penerima_bnpt']; ?></td>
-                            <td><?php echo $n['penerima_bpum']; ?></td>
-                            <td><?php echo $n['penerima_bst']; ?></td>
-                            <td><?php echo $n['penerima_pkh']; ?></td>
-                            <td><?php echo $n['penerima_sembako']; ?></td>
-                            <td><?php echo $n['userid']; ?></td>
-                            <td><?php echo $n['created_at']; ?></td>
-                            <td><?php echo $n['modified_at']; ?></td>
-                            <td><?php echo $n['deleted_at']; ?></td>
+                            <?php foreach ($row as $column) : ?>
+                                <td><?= htmlspecialchars($column); ?></td>
+                            <?php endforeach; ?>
                         </tr>
                     <?php endforeach; ?>
-                <?php endif; ?>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <!-- <th>No</th> -->
-                    <th>Tahun</th>
-                    <th>ID Keluarga</th>
-                    <th>Provinsi</th>
-                    <th>Kabupaten</th>
-                    <th>Kecamatan</th>
-                    <th>Desa</th>
-                    <th>desil</th>
-                    <th>alamat</th>
-                    <th>kk</th>
-                    <th>nik</th>
-                    <th>padan_dukcapil</th>
-                    <th>jk</th>
-                    <th>tgl_lahir</th>
-                    <th>pekerjaan</th>
-                    <th>pendidikan</th>
-                    <th>kepemilikan_rumah</th>
-                    <th>simpanan</th>
-                    <th>jenis_atap</th>
-                    <th>jenis_dinding</th>
-                    <th>jenis_lantai</th>
-                    <th>sumber_penerangan</th>
-                    <th>bahan_bakar_memasak</th>
-                    <th>sumber_air_minum</th>
-                    <th>fasilitas_bab</th>
-                    <th>penerima_bnpt</th>
-                    <th>penerima_bpum</th>
-                    <th>penerima_bst</th>
-                    <th>penerima_pkh</th>
-                    <th>penerima_sembako</th>
-                    <th>userid</th>
-                    <th>created_at</th>
-                    <th>modified_at</th>
-                    <th>deleted_at</th>
-                </tr>
-            </tfoot>
+                </tbody>
+            <?php else : ?>
+                <thead>
+                    <tr>
+                        <th>No data available</th>
+                    </tr>
+                </thead>
+            <?php endif; ?>
+
+        </table>
+        <br>
+    </div>
+</div>
+<br>
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h6 class="card-title fw-semibold mb-4">Raw data Podes</h6>
+            <p>Data di bawah ini hanya sampel. Untuk mendapatkan raw data silakan mengunduh file excel. <b>Penjelasan:</b> Data Podes terbagi menjadi podes desa dan podes kecamatan. Silakan unduh semua data untuk memperoleh data yang lengkap.</p>
+            <a type="button" class="btn btn-success" href="<?= base_url(); ?>/unduh-podes0"><i class="ti ti-download"></i> Podes kecamatan</a>
+            <a type="button" class="btn btn-success" href="<?= base_url(); ?>/unduh-podes1"><i class="ti ti-download"></i> Podes desa 1</a>
+            <a type="button" class="btn btn-success" href="<?= base_url(); ?>/unduh-podes2"><i class="ti ti-download"></i> Podes desa 2</a>
+            <a type="button" class="btn btn-success" href="<?= base_url(); ?>/unduh-podes3"><i class="ti ti-download"></i> Podes desa 3</a>
+            <a type="button" class="btn btn-success" href="<?= base_url(); ?>/unduh-podes4"><i class="ti ti-download"></i> Podes desa 4</a>
+        </div>
+    </div>
+</div>
+<div id="formContainer">
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped" id="tabel-master2">
+            <?php if (!empty($podes) && is_array($podes) && count($podes) > 0) : ?>
+                <thead>
+                    <tr>
+                        <?php foreach (array_keys($podes[0]) as $key) : ?>
+                            <th><?= htmlspecialchars($key); ?></th>
+                        <?php endforeach; ?>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($podes as $row) : ?>
+                        <tr>
+                            <?php foreach ($row as $column) : ?>
+                                <td><?= htmlspecialchars($column); ?></td>
+                            <?php endforeach; ?>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            <?php else : ?>
+                <thead>
+                    <tr>
+                        <th>No data available</th>
+                    </tr>
+                </thead>
+            <?php endif; ?>
+
         </table>
         <br>
     </div>
@@ -127,7 +90,7 @@
 <script>
     $(document).ready(function() {
 
-        $('#tabel-master tfoot th').each(function() {
+        $('#tabel-master #tabel-master2 tfoot th').each(function() {
             var title = $(this).text();
             $(this).html('<input type="text" placeholder="Search ' + title + '" />');
         });
@@ -157,6 +120,33 @@
         });
 
         tabel.buttons().container()
+            .appendTo('#tabel-master_wrapper .col-md-6:eq(0)');
+
+        var tabel2 = $("#tabel-master2").DataTable({
+            "responsive": true,
+            "lengthChange": true,
+            "autoWidth": true,
+            "order": [
+                [0, 'desc']
+            ],
+            "buttons": ["copy", "csv", "excel", "pdf", "colvis"],
+            initComplete: function() {
+                // Apply the search
+                this.api().columns().every(function() {
+                    var that = this;
+
+                    $('input', this.footer()).on('keyup change clear', function() {
+                        if (that.search() !== this.value) {
+                            that
+                                .search(this.value)
+                                .draw();
+                        }
+                    });
+                });
+            }
+        });
+
+        tabel2.buttons().container()
             .appendTo('#tabel-master_wrapper .col-md-6:eq(0)');
 
     });

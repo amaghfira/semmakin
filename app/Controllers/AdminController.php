@@ -109,9 +109,11 @@ class AdminController extends BaseController
     }
 
     public function master() {
-        $masterP3ke = $this->P3keModel->getP3ke()->getResultArray();
+        $masterP3ke = $this->P3keModel->getP3keLimit()->getResultArray();
+        $masterPodes = $this->PodesModel->getPodesAll()->getResultArray();
 
-        $data['master'] = $masterP3ke;
+        $data['p3ke'] = $masterP3ke;
+        $data['podes'] = $masterPodes;
 
         // load views
         echo view("layout/header");
@@ -185,5 +187,121 @@ class AdminController extends BaseController
             $this->session->setFlashdata('alert-class','alert-success');
             return redirect()->to('/update-podes');
         }
+    }
+
+    public function unduh_p3ke() {
+        $data = $this->P3keModel->getP3ke()->getResultArray();
+
+        // Convert data to CSV format
+        $csv_data = $this->arrayToCsv($data);
+
+        // Generate a unique filename
+        $filename = 'download_' . date('Y-m-d_H-i-s') . '.csv';
+
+        // Set the headers for a CSV file download
+        header('Content-Type: application/csv');
+        header('Content-Disposition: attachment; filename="' . $filename . '"');
+
+        // Output the CSV data to the browser
+        echo $csv_data;
+    }
+
+    public function unduh_podes0() {
+        $data = $this->PodesModel->getPodes0()->getResultArray();
+
+        // Convert data to CSV format
+        $csv_data = $this->arrayToCsv($data);
+
+        // Generate a unique filename
+        $filename = 'download_' . date('Y-m-d_H-i-s') . '.csv';
+
+        // Set the headers for a CSV file download
+        header('Content-Type: application/csv');
+        header('Content-Disposition: attachment; filename="' . $filename . '"');
+
+        // Output the CSV data to the browser
+        echo $csv_data;
+    }
+
+    public function unduh_podes1() {
+        $data = $this->PodesModel->getPodes1()->getResultArray();
+
+        // Convert data to CSV format
+        $csv_data = $this->arrayToCsv($data);
+
+        // Generate a unique filename
+        $filename = 'download_' . date('Y-m-d_H-i-s') . '.csv';
+
+        // Set the headers for a CSV file download
+        header('Content-Type: application/csv');
+        header('Content-Disposition: attachment; filename="' . $filename . '"');
+
+        // Output the CSV data to the browser
+        echo $csv_data;
+    }
+
+    public function unduh_podes2() {
+        $data = $this->PodesModel->getPodes2()->getResultArray();
+
+        // Convert data to CSV format
+        $csv_data = $this->arrayToCsv($data);
+
+        // Generate a unique filename
+        $filename = 'download_' . date('Y-m-d_H-i-s') . '.csv';
+
+        // Set the headers for a CSV file download
+        header('Content-Type: application/csv');
+        header('Content-Disposition: attachment; filename="' . $filename . '"');
+
+        // Output the CSV data to the browser
+        echo $csv_data;
+    }
+
+    public function unduh_podes3() {
+        $data = $this->PodesModel->getPodes3()->getResultArray();
+
+        // Convert data to CSV format
+        $csv_data = $this->arrayToCsv($data);
+
+        // Generate a unique filename
+        $filename = 'download_' . date('Y-m-d_H-i-s') . '.csv';
+
+        // Set the headers for a CSV file download
+        header('Content-Type: application/csv');
+        header('Content-Disposition: attachment; filename="' . $filename . '"');
+
+        // Output the CSV data to the browser
+        echo $csv_data;
+    }
+
+    public function unduh_podes4() {
+        $data = $this->PodesModel->getPodes4()->getResultArray();
+
+        // Convert data to CSV format
+        $csv_data = $this->arrayToCsv($data);
+
+        // Generate a unique filename
+        $filename = 'download_' . date('Y-m-d_H-i-s') . '.csv';
+
+        // Set the headers for a CSV file download
+        header('Content-Type: application/csv');
+        header('Content-Disposition: attachment; filename="' . $filename . '"');
+
+        // Output the CSV data to the browser
+        echo $csv_data;
+    }
+
+    // Function to convert an array to CSV format
+    private function arrayToCsv($array)
+    {
+        $output = fopen('php://output', 'w');
+
+        foreach ($array as $row) {
+            fputcsv($output, $row);
+        }
+
+        fclose($output);
+
+        return ob_get_clean();
     }
  }
