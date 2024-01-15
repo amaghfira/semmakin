@@ -33,7 +33,9 @@ class Home extends BaseController
     }
 
     public function getP3keHome() {
-        $formView = view('home_p3ke');
+        $jmltot = $this->HomeModel->getJmlMiskinEkstrim()->getRow();
+        $data['jmltot'] = $jmltot;
+        $formView = view('home_p3ke', $data);
         return $this->response->setJSON(['form' => $formView]);
     }
 
