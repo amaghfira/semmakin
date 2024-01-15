@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\AdminModel;
 use App\Models\P3keModel;
+use App\Models\PodesModel;
 use App\Models\UserModel;
 
 class AdminController extends BaseController
@@ -16,6 +17,7 @@ class AdminController extends BaseController
         $this->P3keModel = new P3keModel();   
         $this->AdminModel = new AdminModel(); 
         $this->UserModel = new UserModel();
+        $this->PodesModel = new PodesModel();
     }
 
     public function index()
@@ -160,5 +162,28 @@ class AdminController extends BaseController
             }
         }
         return redirect('edit');
+    }
+
+    public function formPodes() {
+        echo view("layout/header");
+        echo view("layout/sidebar");
+        echo view("layout/navbar");
+        echo view("kemiskinan/form_podes");
+        echo view("layout/footer");
+    }
+
+    public function submitFormPodes() {
+        $data = [
+            'r101n'     => $this->request->getPost('_Provinsi'),
+            'r102n'     => $this->request->getPost('_102_Kabupaten_Kota'),
+            'r103n'     => $this->request->getPost('_103_Kecamatan'),
+            'r105'      => $this->request->getPost('_105_Status_Daerah')
+        ];
+
+        if ($this->PodesModel->insertData($data) == true) {
+            $this->session->setFlashdata('pesan','Berhasil Menambahkan Data');
+            $this->session->setFlashdata('alert-class','alert-success');
+            return redirect()->to('/update-podes');
+        }
     }
  }

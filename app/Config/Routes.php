@@ -52,6 +52,8 @@ $routes->group('', ['filter' => 'authfilter'], function($routes) {
     $routes->post('/user/edit', 'AdminController::editUser');
     $routes->post('/user/delete', 'AdminController::deleteUser');
     $routes->get('/rekap-podes', 'LaporanController::indexRekapPodes');
+    $routes->get('/update-podes', 'AdminController::formPodes');
+    $routes->post('/submit-podes', 'AdminController::submitFormPodes');
 });
 
 // Redirect 404 errors to the home page

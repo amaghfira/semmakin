@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\HomeModel;
 use App\Models\P3keModel;
+use App\Models\PodesModel;
 use App\Models\UploadModel;
 
 class Home extends BaseController
@@ -14,6 +15,7 @@ class Home extends BaseController
         $this->session = session();
         $this->HomeModel = new HomeModel();
         $this->P3keModel = new P3keModel();
+        $this->PodesModel = new PodesModel();
         
     }
 
@@ -44,6 +46,10 @@ class Home extends BaseController
         $formView = view('home_podes');
         return $this->response->setJSON(['form' => $formView]);
     }
+
+
+    // P3KE FUNCTION //
+    // ------------- //
 
     public function pendudukByDesilByKec() {
         $penduduk = $this->P3keModel->getByDesilByKec()->getResultArray();
@@ -77,4 +83,20 @@ class Home extends BaseController
         return json_encode($data);
     }
 
+    // PODES FUNCTION //
+    // -------------- //
+
+    public function jmlBalaiPengobatanByKec() {
+        $year = 2021;
+        $data = $this->PodesModel->getTabel17($year)->getResultArray();
+
+        return json_encode($data);
+    }
+
+    public function desaMenurutSumberAirMinum() {
+        $year = 2021;
+        $data = $this->PodesModel->getTabel18($year)->getResultArray();
+
+        return json_encode($data);
+    }
 }

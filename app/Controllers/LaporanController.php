@@ -380,9 +380,9 @@ class LaporanController extends BaseController
         echo json_encode($newData);
     }
 
-    // ==========================================================================
-    // PODES 
-    // ==========================================================================
+    // ========================================================================== //
+    //                                  PODES                                     // 
+    // ========================================================================== //
 
     public function getDataPodes()
     {
@@ -417,6 +417,26 @@ class LaporanController extends BaseController
             55 => 'getTabel19',
             56 => 'getTabel20',
             57 => 'getTabel21',
+            58 => 'getTabel22',
+            59 => 'getTabel23',
+            60 => 'getTabel24',
+            61 => 'getTabel25',
+            62 => 'getTabel26',
+            63 => 'getTabel27',
+            64 => 'getTabel28',
+            65 => 'getTabel29',
+            66 => 'getTabel30',
+            67 => 'getTabel31',
+            68 => 'getTabel32',
+            69 => 'getTabel33',
+            70 => 'getTabel34',
+            71 => 'getTabel35',
+            72 => 'getTabel36',
+            73 => 'getTabel37',
+            74 => 'getTabel38',
+            75 => 'getTabel39',
+            76 => 'getTabel40',
+            77 => 'getTabel41'
         ];
 
         if (isset($getTabelFunctions[$selectedData])) {
@@ -441,7 +461,27 @@ class LaporanController extends BaseController
             (($selectedData == 54) ? "Banyaknya Keberadaan Tenaga Kesehatan dan Dukun Bayi yang Tinggal di Desa menurut Desa/Kelurahan " : 
             (($selectedData == 55) ? "Banyaknya  Desa/Kelurahan menurut Jenis Prasarana Transportasi" : 
             (($selectedData == 56) ? "Banyaknya  Desa/Kelurahan  menurut Jenis Ketersediaan Angkutan Umum " : 
-            (($selectedData == 57) ? "Banyaknya Desa/Kelurahan yang Menggunakan Prasarana Transportasi Darat atau Darat dan Air Menurut Jenis Permukaan Jalan Darat Terluas" : "Default Title")))))))))))))))))))); // Replace "Default Title" with the desired default title if needed
+            (($selectedData == 57) ? "Banyaknya Desa/Kelurahan yang Menggunakan Prasarana Transportasi Darat atau Darat dan Air Menurut Jenis Permukaan Jalan Darat Terluas" : 
+            (($selectedData == 58) ? "Jumlah PAUD" : 
+            (($selectedData == 59) ? "jumlah TK dan RA/BA" :
+            (($selectedData == 60) ? "Jumlah SD dan MI" : 
+            (($selectedData == 61) ? "jumlah SMP dan MTS" : 
+            (($selectedData == 62) ? "Jumlah SMA, MA, dan SMK" :
+            (($selectedData ==63) ? "Jumlah Universitas" : 
+            (($selectedData == 64) ? "Jumlah Keberadaan Taman Bacaan Masyarakat (TBM)" :
+            (($selectedData == 65) ? "Jumlah Rumah sakit" :
+            (($selectedData ==66 ) ? "Jumlah RS bersalin" : 
+            (($selectedData == 67) ? "Jumlah Puskesmas dengan rawat inap" :
+            (($selectedData == 68) ? "Jumlah Puskesmas tanpa rawat inap" :
+            (($selectedData == 69) ? "Jumlah Puskesmas pembantu" :
+            (($selectedData == 70) ? "Jumlah Poliklinik/balai pengobatan" :
+            (($selectedData == 71) ? "Jumlah Tempat praktik dokter" :
+            (($selectedData == 72) ? "Jumlah Rumah bersalin" : 
+            (($selectedData ==73) ? "Jumlah Tempat praktik bidan" :
+            (($selectedData == 74) ? "Jumlah Poskesdes" :
+            (($selectedData == 75) ? "Jumlah Polindes" :
+            (($selectedData == 76) ? "Jumlah Apotek" :
+            (($selectedData == 77) ? "Jumlah Posyandu aktif setiap bulan aktif" : "Untitled")))))))))))))))))))))))))))))))))))))))); // Replace "Default Title" with the desired default title if needed
 
         }
 
