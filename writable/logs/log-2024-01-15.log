@@ -98,3 +98,7 @@ CRITICAL - 2024-01-15 14:32:42 --> Invalid argument supplied for foreach()
 #3 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2024-01-15 14:48:17 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\semmakin\vendor\codeigniter4\framework\system\CodeIgniter.php(331): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\xampp\htdocs\semmakin\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 {main}

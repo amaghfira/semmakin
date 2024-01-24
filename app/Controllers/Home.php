@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\DtksModel;
 use App\Models\HomeModel;
 use App\Models\P3keModel;
 use App\Models\PodesModel;
@@ -16,6 +17,7 @@ class Home extends BaseController
         $this->HomeModel = new HomeModel();
         $this->P3keModel = new P3keModel();
         $this->PodesModel = new PodesModel();
+        $this->DtksModel = new DtksModel();
         
     }
 
@@ -98,6 +100,29 @@ class Home extends BaseController
     public function desaMenurutSumberAirMinum() {
         $year = 2021;
         $data = $this->PodesModel->getTabel18($year)->getResultArray();
+
+        return json_encode($data);
+    }
+
+    // DTKS FUNCTION //
+    // ------------- //
+
+    public function rutaMenurutStatus() {
+        $year = 2022;
+        $data = $this->DtksModel->getTabel1($year)->getResultArray();
+
+        return $this->response->setJSON(['newData' => $data]);
+    }
+
+    public function rutaMenurutTernak() {
+        $year = 2022;
+        $data = $this->DtksModel->getTabel15($year)->getResultArray();
+
+        return $this->response->setJSON(['newData' => $data]);
+    }
+
+    public function rutaMenurutSumberAir() {
+        $data = $this->HomeModel->getJenisSumberAir()->getResultArray();
 
         return json_encode($data);
     }

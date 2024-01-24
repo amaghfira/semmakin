@@ -41,14 +41,6 @@
           </a>
         </li>
         <li class="sidebar-item">
-          <a class="sidebar-link" href="<?= base_url(); ?>/rekap" aria-expanded="false">
-            <span>
-              <i class="ti ti-border-all"></i>
-            </span>
-            <span class="hide-menu">Tabel Rekap Data Kemiskinan</span>
-          </a>
-        </li>
-        <li class="sidebar-item">
           <a class="sidebar-link" href="<?= base_url(); ?>/analisis" aria-expanded="false">
             <span>
               <i class="ti ti-cards"></i>

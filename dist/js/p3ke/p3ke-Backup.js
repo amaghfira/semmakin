@@ -17,7 +17,7 @@ function loadHighcharts() {
 }
 
 async function createGrafik() {
-    fetch('LaporanController/getGrafik')
+    fetch('LaporanController/getData')
         .then(response => response.json())
         .then(data => {
             // console.log(data);

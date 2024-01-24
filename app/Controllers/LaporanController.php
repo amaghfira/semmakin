@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\DtksModel;
 use App\Models\P3keModel;
 use App\Models\PodesModel;
 
@@ -14,6 +15,7 @@ class LaporanController extends BaseController
     {
         $this->P3keModel = new P3keModel();
         $this->PodesModel = new PodesModel();
+        $this->DtksModel = new DtksModel();
         $this->session = session();
     }
 
@@ -63,10 +65,22 @@ class LaporanController extends BaseController
         echo view("layout/footer");
     }
 
+    public function indexDtks()
+    {
+        $menus = $this->DtksModel->getMenus()->getResultArray();
+        $data['menus'] = $menus;
 
-    // ==================================================
-    // P3KE
-    // ==================================================
+        // load views
+        echo view("layout/header");
+        echo view("layout/navbar_laporan");
+        echo view("kemiskinan/laporan_dtks", $data);
+        echo view("layout/footer");
+    }
+
+
+    // ================================================== //
+    //                     P3KE                           //
+    // ================================================== //
 
     // FUNCTION TO SHOW JUDUL DAN DATA TABLE 
     public function getData()
@@ -233,7 +247,7 @@ class LaporanController extends BaseController
             $formView = view('kemiskinan/analisis/p3ke_desa', $data);
         }
 
-        return $this->response->setJSON(['form' => $formView]);
+        return $this->response->setJSON(['form' => $formView, 'newData' => $data]);
     }
 
 
@@ -291,7 +305,7 @@ class LaporanController extends BaseController
         if ($this->session->getFlashdata('data') == 18) {
             $data = $this->P3keModel->getTabel18($this->session->getFlashdata('year'))->getResultArray();
         }
-        return json_encode($data);
+        return $this->response->setJSON(['newData' => $data]);
     }
 
     // JSON FOR TREEMAP
@@ -536,9 +550,9 @@ class LaporanController extends BaseController
         return json_encode($data);
     }
 
-    // --------------------------------------------------------
-    // VISUALISASI CHOROPLETH MAP KEMISKINAN EKSTREM DATA P3KE 
-    // --------------------------------------------------------
+    // ============================================================== //
+    // VISUALISASI CHOROPLETH MAP KEMISKINAN EKSTREM DATA P3KE       //
+    // ============================================================ //
     public function miskinEkstremByDesa()
     {
         $data = $this->P3keModel->getMiskinEkstremByDesa()->getResultArray();
@@ -557,5 +571,126 @@ class LaporanController extends BaseController
             // Set the content type to JSON
             return $this->response->setJSON($geojsonData);
         }
+    }
+
+    // ========================================================================== //
+    //                                  DTKS                                      // 
+    // ========================================================================== //
+
+    public function getDataDtks()
+    {
+        $selectedYear = $this->request->getPost('year');
+        $selectedData = $this->request->getPost('data');
+
+        $this->session->setFlashdata('year', $selectedYear);
+        $this->session->setFlashdata('data', $selectedData);
+
+        $desc = $this->DtksModel->getDescById($selectedData, $selectedYear)->getResult();
+
+        // Define an array to map selectedData to the corresponding getTabel function number
+        $getTabelFunctions = [
+            78 => 'getTabel1',
+            79 => 'getTabel2',
+            80 => 'getTabel3',
+            81 => 'getTabel4',
+            82 => 'getTabel5',
+            83 => 'getTabel6',
+            84 => 'getTabel7',
+            85 => 'getTabel8',
+            86 => 'getTabel9',
+            87 => 'getTabel10',
+            88 => 'getTabel11',
+            89 => 'getTabel12',
+            90 => 'getTabel13',
+            91 => 'getTabel14',
+            92 => 'getTabel15',
+            93 => 'getTabel16'
+        ];
+
+        if (isset($getTabelFunctions[$selectedData])) {
+            $tabel = $this->DtksModel->{$getTabelFunctions[$selectedData]}($selectedYear)->getResultArray();
+
+            // Define the $judul variable based on selectedData
+            $judul = ($selectedData == 78) ? "Banyaknya rumah tangga menurut kecamatan dan status kesejahteraan" : 
+            (($selectedData == 79) ? "Banyaknya rumah tangga menurut kecamatan dan status bangunan" : 
+            (($selectedData == 80) ? "Banyaknya rumah tangga menurut kecamatan dan status lahan" : 
+            (($selectedData == 81) ? "Banyaknya rumah tangga menurut kecamatan dan rata-rata luas lantai" : 
+            (($selectedData == 82) ? "Banyaknya rumah tangga menurut kecamatan dan jenis lantai" : 
+            (($selectedData == 83) ? "Banyaknya rumah tangga menurut kecamatan dan jenis dinding dan kondisi dinding" : 
+            (($selectedData == 84) ? "Banyaknya rumah tangga menurut kecamatan dan atap dan kondisi atap":
+            (($selectedData == 85) ? "Banyaknya rumah tangga menurut kecamatan dan rata-rata jumlah kamar" : 
+            (($selectedData == 86) ? "Banyaknya rumah tangga menurut kecamatan dan sumber air minum" : 
+            (($selectedData == 87) ? "Banyaknya rumah tangga menurut kecamatan dan cara memperoleh air minum" : 
+            (($selectedData == 88) ? "Banyaknya rumah tangga menurut kecamatan dan sumber penerangan" : 
+            (($selectedData == 89) ? "Banyaknya rumah tangga menurut kecamatan dan bahan bakar memasak" : 
+            (($selectedData == 90) ? "Banyaknya rumah tangga menurut kecamatan dan fasilitas buang air besar" : 
+            (($selectedData == 91) ? "Banyaknya rumah tangga menurut kecamatan dan kepemilikan aset (tabung gas, lemari es, ac, pemanas, telpon, tv, emas, laptop, sepeda, motor, mobil, perahu, motor tempel, perahu motor, kapal)" : 
+            (($selectedData == 92) ? "Banyaknya rumah tangga menurut kecamatan dan kepemilikan ternak ( sapi, kerbau, kuda, babi, kambing)" : 
+            (($selectedData == 93) ? "Banyaknya rumah tangga menurut kecamatan dan status ART yang berusaha" : "untitled"
+            ))))))))))))))); // Replace "Default Title" with the desired default title if needed
+
+        }
+
+        $data['id'] = $selectedData;
+        $data['judul'] = $judul;
+        $data['tabel'] = $tabel;
+        $data['deskripsi'] = $desc;
+        $formView = view('kemiskinan/analisis/dtks_ruta', $data);
+
+        return $this->response->setJSON(['form' => $formView]);
+    }
+
+    // JSON FOR CHARTS
+    public function getGrafikDtks()
+    {
+        if ($this->session->getFlashdata('data') == 78) {
+            $data = $this->DtksModel->getTabel1($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 79) {
+            $data = $this->DtksModel->getTabel2($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 80) {
+            $data = $this->DtksModel->getTabel3($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 81) {
+            $data = $this->DtksModel->getTabel4($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 82) {
+            $data = $this->DtksModel->getTabel5($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 83) {
+            $data = $this->DtksModel->getTabel6($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 84) {
+            $data = $this->DtksModel->getTabel7($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 85) {
+            $data = $this->DtksModel->getTabel8($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 86) {
+            $data = $this->DtksModel->getTabel9($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 87) {
+            $data = $this->DtksModel->getTabel10($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 88) {
+            $data = $this->DtksModel->getTabel11($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 89) {
+            $data = $this->DtksModel->getTabel12($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 90) {
+            $data = $this->DtksModel->getTabel13($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 91) {
+            $data = $this->DtksModel->getTabel14($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 92) {
+            $data = $this->DtksModel->getTabel15($this->session->getFlashdata('year'))->getResultArray();
+        }
+        if ($this->session->getFlashdata('data') == 93) {
+            $data = $this->DtksModel->getTabel16($this->session->getFlashdata('year'))->getResultArray();
+        }
+        return $this->response->setJSON(['newData' => $data]);
     }
 }

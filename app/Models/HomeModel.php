@@ -46,26 +46,29 @@ class HomeModel extends Model
     {
         $this->db = db_connect();
         $this->dataP3ke = $this->db->table('p3ke');
-        // $this->dataDtks = $this->db->table('dtks');
+        $this->dataDtks = $this->db->table('dtks_ruta');
     }
 
-    public function getMiskinEkstremByPekerjaan() {
+    public function getMiskinEkstremByPekerjaan()
+    {
         return $this->dataP3ke
-                    ->select('pekerjaan, COUNT(*) jml')
-                    ->where('desil',1)
-                    ->groupBy('pekerjaan')
-                    ->get();
+            ->select('pekerjaan, COUNT(*) jml')
+            ->where('desil', 1)
+            ->groupBy('pekerjaan')
+            ->get();
     }
 
-    public function getMiskinEkstremByPendidikan() {
+    public function getMiskinEkstremByPendidikan()
+    {
         return $this->dataP3ke
-                    ->select('pendidikan, COUNT(*) jml')
-                    ->where('desil',1)
-                    ->groupBy('pendidikan')
-                    ->get();
+            ->select('pendidikan, COUNT(*) jml')
+            ->where('desil', 1)
+            ->groupBy('pendidikan')
+            ->get();
     }
 
-    public function getMiskinEkstremByJk() {
+    public function getMiskinEkstremByJk()
+    {
         $query = "
                     SELECT 
                         jk as name,
@@ -77,10 +80,11 @@ class HomeModel extends Model
                     GROUP BY 
                         jk
                 ";
-        return $this->db->query($query);        
+        return $this->db->query($query);
     }
 
-    public function getJmlMiskinEkstrim() {
+    public function getJmlMiskinEkstrim()
+    {
         $query = "
             SELECT COUNT(*) as jmltotal
             FROM p3ke
@@ -91,11 +95,36 @@ class HomeModel extends Model
         return $this->db->query($query);
     }
 
-    public function getMiskinEkstremByRumah() {
+    public function getMiskinEkstremByRumah()
+    {
         return $this->dataP3ke
-                    ->select('kepemilikan_rumah as name, COUNT(*) as y')
-                    ->where('desil',1)
-                    ->groupBy('kepemilikan_rumah')
-                    ->get();
+            ->select('kepemilikan_rumah as name, COUNT(*) as y')
+            ->where('desil', 1)
+            ->groupBy('kepemilikan_rumah')
+            ->get();
+    }
+
+    public function getJenisSumberAir()
+    {
+        $query = 'SELECT CASE 
+            WHEN sumber_airminum = 1 THEN "Air kemasan bermerek" 
+            WHEN sumber_airminum = 2 THEN "Air isi ulang"
+            WHEN sumber_airminum = 3 THEN "Leding meteran"
+            WHEN sumber_airminum = 4 THEN "Leding eceran"
+            WHEN sumber_airminum = 5 THEN "Sumur bor/pompa"
+            WHEN sumber_airminum = 6 THEN "Sumur terlindung"
+            WHEN sumber_airminum = 7 THEN "Sumur tak terlindung"
+            WHEN sumber_airminum = 8 THEN "Mata air terlindung"
+            WHEN sumber_airminum = 9 THEN "Mata air tak terlindung"
+            WHEN sumber_airminum = 10 THEN "Air sungai/danau/waduk"
+            WHEN sumber_airminum = 11 THEN "Air hujan"
+            WHEN sumber_airminum = 12 THEN "Lainnya"
+            ELSE "0"
+            END as "name",
+            COUNT(nama_krt) AS "y"
+        FROM dtks_ruta
+        GROUP BY sumber_airminum';
+
+        return $this->db->query($query);
     }
 }

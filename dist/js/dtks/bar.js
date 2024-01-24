@@ -17,7 +17,7 @@ function loadHighcharts() {
 }
 
 async function createGrafik() {
-    fetch('LaporanController/getGrafik')
+    fetch('LaporanController/getGrafikDtks')
         .then(response => response.json())
         .then(data => {
             // console.log(data);
@@ -54,11 +54,11 @@ async function createGrafik() {
                     yAxis: {
                         min: 0,
                         title: {
-                            text: 'Number of People'
+                            text: 'Jumlah RUTA'
                         }
                     },
                     tooltip: {
-                        valueSuffix: ' people'
+                        valueSuffix: 'Ruta'
                     },
                     series: seriesData
                 });
