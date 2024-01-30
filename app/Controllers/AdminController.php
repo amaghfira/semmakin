@@ -141,13 +141,19 @@ class AdminController extends BaseController
         $id = $this->request->getPost('tabel');
         $deskripsi = $this->request->getPost('deskripsi');
 
-        $data = [
+        $dataUpdate = [
+            'tahun' => $tahun,
+            'deskripsi' => $deskripsi
+        ];
+
+        $dataInsert = [
+            'id' => $id,
             'tahun' => $tahun,
             'deskripsi' => $deskripsi
         ];
 
         if ($this->AdminModel->cekDataById($id,$tahun) == true) { // cek if data already exists, then update 
-            if ($this->AdminModel->updateData($id,$data) == true) {
+            if ($this->AdminModel->updateData($id,$dataUpdate) == true) {
                 $this->session->setFlashdata('pesan','Berhasil Update Data');
                 $this->session->setFlashdata('alert-class','alert-success');
             } else {
@@ -155,7 +161,7 @@ class AdminController extends BaseController
                 $this->session->setFlashdata('alert-class','alert-danger');
             }
         } else { // if not exists then insert
-            if ($this->AdminModel->insertData($data) == true) {
+            if ($this->AdminModel->insertData($dataInsert) == true) {
                 $this->session->setFlashdata('pesan','Berhasil Update Data');
                 $this->session->setFlashdata('alert-class','alert-success');
             } else {
