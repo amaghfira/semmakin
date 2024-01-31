@@ -160,7 +160,7 @@ class PodesModel extends Model
 
         public function getTabel7($year)
         {
-                $query = "SELECT r103n as 'Nama Kec', r104n as 'Nama Desa' , 
+                $query = "SELECT r103n as 'Nama Kecamatan', r104n as 'Nama Desa' , 
                             CASE WHEN r505b=1 THEN COUNT(r505a) ELSE 0 END AS 'Tangki septik',
                             CASE WHEN r505b=2 THEN COUNT(r505a) ELSE 0 END AS 'IPAL',
                             CASE WHEN r505b=3 THEN COUNT(r505a) ELSE 0 END AS 'Kolam/sawah/sungai/danau/laut',
@@ -176,11 +176,11 @@ class PodesModel extends Model
 
         public function getTabel8($year)
         {
-                $query = "SELECT r103, r103n, (SUM(r701dk2+r701dk3)/SUM(r701ek2+r701ek3)) jml_sdmi ,
-                        (r701fk2+r701fk3)/(r701gk2+r701gk3) jml_smp,
-                (r701hk2+r701hk3)/(r701lk2+r701lk3) jml_sma,
-                (r701jk2+r701jk3) jml_smk,
-                (r701kk2+r701kk3) jml_akademi
+                $query = "SELECT r103n as 'Nama Kecamatan', SUM(r701dk2+r701dk3+r701ek2+r701ek3) 'Jumlah SD/MI' ,
+                        SUM(r701fk2+r701fk3+r701gk2+r701gk3) 'Jumlah SMP',
+                SUM(r701hk2+r701hk3+r701lk2+r701lk3) 'Jumlah SMA',
+                (r701jk2+r701jk3) 'Jumlah SMK',
+                (r701kk2+r701kk3) 'Jumlah Akademi'
         FROM podes_desa_2
         WHERE tahun = '$year'
         GROUP BY r103";
@@ -189,7 +189,7 @@ class PodesModel extends Model
 
         public function getTabel9($year)
         {
-                $query = "SELECT r103, r103n, SUM(r701dk2+r701dk3+r701ek2+r701ek3) jml_sdmi
+                $query = "SELECT r103n 'Nama Kecamatan', SUM(r701dk2+r701dk3+r701ek2+r701ek3) 'Jumlah'
         FROM podes_desa_2
         WHERE tahun = '$year'
         GROUP BY r103";
@@ -198,8 +198,8 @@ class PodesModel extends Model
 
         public function getTabel10($year)
         {
-                $query = "SELECT r103, r103n, 
-                        SUM(r701fk2+r701fk3+r701gk2+r701gk3) jml_smp
+                $query = "SELECT r103n 'Nama Kecamatan', 
+                        SUM(r701fk2+r701fk3+r701gk2+r701gk3) 'Jumlah'
         FROM podes_desa_2
         WHERE tahun = '$year'
         GROUP BY r103";
@@ -208,8 +208,8 @@ class PodesModel extends Model
 
         public function getTabel11($year)
         {
-                $query = "SELECT r103, r103n,
-                SUM(r701hk2+r701hk3+r701lk2+r701lk3) jml_sma
+                $query = "SELECT r103n 'Nama Kecamatan',
+                SUM(r701hk2+r701hk3+r701lk2+r701lk3) 'Jumlah'
         FROM podes_desa_2
         WHERE tahun = '$year'
         GROUP BY r103";
@@ -218,8 +218,8 @@ class PodesModel extends Model
 
         public function getTabel12($year)
         {
-                $query = "SELECT r103, r103n, 
-                SUM(r701jk2+r701jk3) jml_smk
+                $query = "SELECT r103n 'Nama Kecamatan', 
+                SUM(r701jk2+r701jk3) 'Jumlah'
         FROM podes_desa_2
         WHERE tahun = '$year'
         GROUP BY r103";
