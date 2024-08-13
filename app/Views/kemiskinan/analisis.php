@@ -5,8 +5,8 @@
     <div class="row">
         <div class="col-lg-4">
             <a href="<?= base_url(); ?>/analisis-p3ke">
-                <div class="card">
-                    <div class="card-body">
+                <div class="card pilih-analisis1">
+                    <div class="card-body pilih-analisis1">
                         <h5>Data P3KE</h5>
                     </div>
                 </div>
@@ -14,8 +14,8 @@
         </div>
         <div class="col-lg-4">
             <a href="<?= base_url(); ?>/analisis-dtks">
-                <div class="card">
-                    <div class="card-body">
+                <div class="card pilih-analisis2">
+                    <div class="card-body pilih-analisis2">
                         <h5>Data DTKS</h5>
                     </div>
                 </div>
@@ -23,8 +23,8 @@
         </div>
         <div class="col-lg-4">
             <a href="<?= base_url(); ?>/analisis-podes">
-                <div class="card">
-                    <div class="card-body">
+                <div class="card pilih-analisis3">
+                    <div class="card-body pilih-analisis3">
                         <h5>Data PODES</h5>
                     </div>
                 </div>

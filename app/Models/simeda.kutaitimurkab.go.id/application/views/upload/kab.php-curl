@@ -1,0 +1,80 @@
+<?php
+$sql = "select k.id_ms_keg,count(*) as t, sum(case when v.id_indah>0 then 1 end) as r from omae_ms_var v join omae_ms_keg k on k.id_ms_keg=v.id_ms_keg where k.id_wilayah='".$id_wilayah."' group by k.id_ms_keg";
+foreach($this->db->query($sql)->result() as $r){
+	$var[$r->id_ms_keg]=array('t'=>$r->t, 'r'=>$r->r?$r->r:0);
+}
+
+$sql = "select k.id_ms_keg,count(*) as t, sum(case when i.id_indah>0 then 1 end) as r from omae_ms_ind i join omae_ms_keg k on k.id_ms_keg=i.id_ms_keg where k.id_wilayah='".$id_wilayah."' group by k.id_ms_keg";
+foreach($this->db->query($sql)->result() as $r){
+	$ind[$r->id_ms_keg]=array('t'=>$r->t, 'r'=>$r->r?$r->r:0);
+}
+
+?>
+<div class="box box-body">
+<table class="table">
+	<thead>
+		<tr>
+			<th>Judul Kegiatan</th>
+			<th>Kegiatan</th>
+			<th>Variabel</th>
+			<th>Indikator</th>
+		</tr>
+	</thead>
+	<tbody>
+<?php foreach($this->mskeg->all_by_wilayah($id_wilayah) as $row) {
+    $pic = $id_wilayah!='6400'? 1 : ($row->created_by?'1':'0');
+	$v = isset($var[$row->id_ms_keg])?$var[$row->id_ms_keg]:null;
+	$i = isset($ind[$row->id_ms_keg])?$ind[$row->id_ms_keg]:null;
+	echo "<tr id_ms_keg='".$row->id_ms_keg."' id_indah='".$row->id_indah."' pic='".$pic."'>".
+	"<td>".$row->judul_kegiatan."<br><small><i class='fa fa-".($pic?'user':'question')."'></i> ".$row->instansi."</small></td>".
+	"<td cek=".($row->id_indah? '1' : '2')."></td>".
+	"<td cek=".(!$v? '0' : ($v['t']>0 && $v['t']==$v['r']? '1' : '2'))."><small>".$v['r']." of ".$v['t']."</small></td>". 
+	"<td cek=".(!$i? '0' : ($i['t']>0 && $i['t']==$i['r']? '1' : '2'))."><small>".$i['r']." of ".$i['t']."</small></td>". 
+	"</tr>\n";
+} ?>	
+	</tbody>
+</table>
+</div>
+
+<style>
+	td small {font-style: italic;}
+	td i.fa {font-size: small;}
+	td i.fa-sign-out {cursor: pointer;}
+	td i.fa-check-square-o {color: limegreen;}
+
+	thead tr th {position: sticky; top: 0}
+	tbody tr:hover {background: #eee;}
+</style>
+
+<script>
+$('tbody tr').each(function(){
+	var mskeg = $(this).find('td:nth-child(2)');
+	if(mskeg.attr('cek')=='1') mskeg.html('<i class="fa fa-check-square-o"></i>');
+	else mskeg.html('<i class="fa fa-sign-out"></i>');
+
+	var msvar = $(this).find('td:nth-child(3)');
+	if(msvar.attr('cek')=='1') msvar.prepend('<i class="fa fa-check-square-o"></i> <br> ');
+	else if(msvar.attr('cek')=='2') msvar.prepend('<i class="fa fa-sign-out"></i> <br> ');
+	else msvar.html('-');
+
+	var msind = $(this).find('td:nth-child(4)');
+	if(msind.attr('cek')=='1') msind.prepend('<i class="fa fa-check-square-o"></i> <br> ');
+	else if(msind.attr('cek')=='2') msind.prepend('<i class="fa fa-sign-out"></i> <br> ');
+	else msind.html('-');
+});
+
+$('tbody tr td i.fa-sign-out').click(function(){
+	var id_ms_keg = $(this).closest('tr').attr('id_ms_keg');
+	var id_indah = $(this).closest('tr').attr('id_indah');
+	var pic = $(this).closest('tr').attr('pic');
+	var kolom = $(this).parent().index();
+
+    if(pic>0){
+        $(this).addClass('fa-spin');
+    }
+	if(kolom==1 && pic>0) location.href = "<?=base_url('upload/mskeg/'.$id_wilayah);?>/"+id_ms_keg;
+	else if(kolom==2 && id_indah>0 && pic>0) location.href = "<?=base_url('upload/msvar/'.$id_wilayah);?>/"+id_ms_keg;
+	else if(kolom==3 && id_indah>0 && pic>0) location.href = "<?=base_url('upload/msind/'.$id_wilayah);?>/"+id_ms_keg;
+});
+
+</script>

@@ -80,7 +80,7 @@ class DtksModel extends Model
     {
         $query = "SELECT
             kec,
-            COUNT(CASE WHEN sta_lahan = '0' THEN nama_krt END) AS '0'
+            COUNT(CASE WHEN sta_lahan = '0' THEN nama_krt END) AS '0',
             COUNT(CASE WHEN sta_lahan = '1' THEN nama_krt END) AS '1',
             COUNT(CASE WHEN sta_lahan = '2' THEN nama_krt END) AS '2',
             COUNT(CASE WHEN sta_lahan = '3' THEN nama_krt END) AS '3',

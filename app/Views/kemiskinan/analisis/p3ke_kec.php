@@ -53,10 +53,17 @@
     <!-- ANALISIS -->
     <div class="col-lg-12 deskripsi">
       <img src="<?= base_url(); ?>/dist/images/explain.jpg" alt="" srcset="" width="200px">
-      <h6>Definisi Miskin Ekstrem: </h6>
+      <div class="judul">
+        <h6>Definisi Miskin Ekstrem: </h6>
+      </div>
+      <br>
       <p>Kemiskinan Ekstrem adalah kondisi ketidakmampuan masyarakat dalam memenuhi kebutuhan dasar, yaitu makanan, air bersih, sanitasi layak, kesehatan, tempat tinggal, pendidikan dan akses informasi terhadap pendapatan dan layanan sosial.</p>
       <p>Seseorang dikategorikan miskin ekstrem jika biaya kebutuhan hidup sehari-harinya berada di bawah garis kemiskinan esktrem; setara dengan USD 1.9 PPP (Purchasing Power Parity). PPP ditentukan menggunakan "absolute poverty measure" yang konsisten antar negara dan antar waktu. Atau dengan kata lain, seseorang dikategorikan miskin ekstrem jika pengeluarannya di bawah Rp. 10.739/orang/hari atau Rp. 322.170/orang/bulan (BPS,2021). Sehingga misalnya dalam 1 keluarga terdiri dari 4 orang (ayah, ibu, dan 2 anak), memiliki kemampuan untuk memenuhi pengeluarannya setara atau di bawah Rp. 1.288.680 per keluarga per bulan (BPS, 2021)</p>
-      <h6>Interpretasi: </h6>
+
+      <div class="judul">
+        <h6>Interpretasi: </h6>
+      </div>
+      <br>
       <p>
         <?php foreach ($deskripsi as $des) : ?>
           <?= $des->deskripsi; ?>

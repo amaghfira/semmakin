@@ -60,6 +60,8 @@ $routes->group('', ['filter' => 'authfilter'], function($routes) {
     $routes->get('/unduh-podes2', 'AdminController::unduh_podes2');
     $routes->get('/unduh-podes3', 'AdminController::unduh_podes3');
     $routes->get('/unduh-podes4', 'AdminController::unduh_podes4');
+    $routes->get('/laporan', 'Kemiskinan::show_TKPKD_page');
+    $routes->get('/download-tkpkd(:any)','Kemiskinan::download_TKPKD/$1');
 });
 
 // Redirect 404 errors to the home page

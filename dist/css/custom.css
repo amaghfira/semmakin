@@ -21,32 +21,79 @@ ul.breadcrumb {
     text-decoration: underline;
   }
 
+  /* +++++++++++++++++++++++++++++ */
   /* dropdown selector in laporan */
+  /* +++++++++++++++++++++++++++++ */
 
   .label {
-    color: darkblue;
+    color: 04364A;
     font-weight: 500;
   }
 
   #dropdownYearSelector {
-    background-color: darkblue;
+    background-color: #04364A;
     color: white;
     font-weight: 600;
     margin-bottom: 13px;
   }
 
   #dropdownDataSelector {
-    background-color: darkblue;
+    background-color: #04364A;
     color: white;
     font-weight: 600;
     margin-bottom: 10px;
   }
 
   .deskripsi h6 {
-    color: darkblue;
+    color: 04364A;
     font-weight: 700;
   }
 
   .deskripsi p {
     text-align: justify;
+    color: black;
+  }
+
+  .judul {
+    padding: 7px;
+    background-color: #04364A;
+    border-radius: 15px;
+  }
+
+  .judul h6 {
+    color: whitesmoke
+  }
+
+  /* +++++++++++++++++++++ */
+  /*   HALAMAN ANALISIS */
+  /* +++++++++++++++++++++ */
+
+  .pilih-analisis1 {
+    background: #04364A;
+    border-radius: 40px;
+  }
+
+  .pilih-analisis1 h5 {
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  .pilih-analisis2 {
+    background: #176B87;
+    border-radius: 40px;
+  }
+
+  .pilih-analisis2 h5 {
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  .pilih-analisis3 {
+    background: #64CCC5;
+    border-radius: 40px;
+  }
+
+  .pilih-analisis3 h5 {
+    color: whitesmoke;
+    font-weight: bold;
   }

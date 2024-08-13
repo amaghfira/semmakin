@@ -1,0 +1,20 @@
+RewriteEngine On
+
+# Rule for excluding specific paths from rewriting
+RewriteCond %{REQUEST_URI} !^/(index\.php|resources|robots\.txt)
+
+# Rule for existing files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite rule to handle the URI
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+# Redirect to HTTPS
+RewriteCond %{HTTPS} off
+RewriteCond %{SERVER_NAME} =simeda.kutaitimurkab.go.id
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+
+# Header for Access-Control-Allow-Origin
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS, DELETE, PUT"

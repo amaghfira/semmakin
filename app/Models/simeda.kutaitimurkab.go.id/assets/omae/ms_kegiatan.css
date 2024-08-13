@@ -1,0 +1,54 @@
+label {
+	margin-top:10px;
+}
+.box-header.with-border {
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+	background: #ddd;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+.box-header .small {
+	font-weight: normal;
+}
+.align-right {
+	text-align: right;
+}
+tr[tanggal] td:first-child {
+	padding-left: 25px;
+}
+tr[tanggal] td:not(:first-child) {
+	text-align: center;
+}
+tr[tanggal] td input {
+	text-align: center;
+	margin: -8px;
+}
+li {
+	list-style-type: none;
+}
+.col-sm-offset-1 {
+	margin-left: 3.33%
+}
+.row .col-sm-offset-1 {
+	margin-left: 4.5%
+}
+.form-control.col-sm-offset-1 {
+	width: 96.67%;
+}
+.form-control.align-center {
+	text-align: center;
+}
+li.selected, span.selected  {
+	color: orangered;
+	font-weight: 600;
+}
+input.error {
+	background: red;
+	color: white;
+}
+.col-sm-1 .form-control {
+	padding: 0;
+	text-align: center;
+}

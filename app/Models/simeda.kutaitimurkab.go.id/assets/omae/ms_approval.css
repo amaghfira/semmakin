@@ -1,0 +1,21 @@
+div[role=dialog] {font-size:smaller}
+#myDialog {padding:0 20px 10px}
+#myDialog button {margin-top:10px}
+
+i.approval {
+	float: right;
+	margin: 3px 0;
+	width: 19px;
+	height: 19px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	padding-top: 3px;
+	vertical-align: middle;
+	text-align: center;		
+	cursor: pointer;
+	color: #ccc;
+	font-size: smaller;
+}
+i.approval.fa-check { background: green; }
+i.approval.fa-info { background: orange; }
+i.approval.fa-exclamation { background: red; }

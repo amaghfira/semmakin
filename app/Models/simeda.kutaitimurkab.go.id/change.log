@@ -1,0 +1,34 @@
+10 Juni 2021
+- Informasi tentang OMAE di halaman login
+- Menu Petunjuk Aplikasi
+- Hash dan salt password
+
+2 Juni 2021
+- Perbaikan text isian 6.4 - 6.7
+- Perbaikan MS-Indikator
+- Hapus MS-Kegiatan melalui menu Approval oleh role Super
+
+29 Mei 2021
+- Rekap menurut wilayah
+- Rekap menurut pertanyaan dropdown sampai opd/kegiatan
+- Username di navbar
+- Unlock kegiatan dengan klik ikon gembok
+- Menu dan pegelolaan user di role BPS masing-masing wilayah
+- Perbaikan bug : piechart dashboard sesuai wilayah (user BPS//Diskominfo), atau instansi (role OPD)
+
+
+17 Mei 2021
+- Ditambahkan nama instansi pada list kegiatan pada halaman Verifikasi dan Approval
+- Lock data jika sedang proses verifikasi
+- Ditambahkan checkbox di setiap halaman verifikasi
+
+- Validasi data, status dokumen = Clean/Error
+- Menambahkan ikon validasi di setiap index, dan di judul kegiatan pada halaman MS Kegiatan dan Verifikasi
+- Isian variabel (tambah baru) langsung di baris tabel; proses edit/hapus tetap dengan window
+- Isian wilayah menggunakan dropdown provinsi dan kabupaten
+- Tipe data pada field approval_on diubah dari timestamp menjadi varchar (20), agar tidak autoupdate
+- Tabel master_provinsi dan master_kabupaten untuk input field wilayah
+
+Yang belum :
+- Rule validasi pada variabel dan indikator
+

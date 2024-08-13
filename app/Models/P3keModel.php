@@ -546,7 +546,6 @@ ORDER BY kec";
     {
         $query = "SELECT kec,desa,
         Sum(CASE WHEN sumber_penerangan = 'Listrik Pribadi s/d 900 Watt' THEN 1 ELSE 0 END)AS 'Listrik Pribadi s/d 900 Watt',
-        Sum(CASE WHEN sumber_penerangan = 'Keramik/Granit/Marmer/Ubin/Tegel/Teraso' THEN 1 ELSE 0 END)AS 'Keramik/Granit/Marmer/Ubin/Tegel/Teraso',
         Sum(CASE WHEN sumber_penerangan = 'Listrik Pribadi > 900 Watt' THEN 1 ELSE 0 END)AS 'Listrik Pribadi > 900 Watt',
         Sum(CASE WHEN sumber_penerangan = 'Genset/solar cell' THEN 1 ELSE 0 END)AS 'Genset/solar cell',
         Sum(CASE WHEN sumber_penerangan = 'Non-Listrik' THEN 1 ELSE 0 END)AS 'Non-Listrik'   

@@ -5,7 +5,7 @@
 </ul>
 
 <h5 class="card-title fw-semibold mb-4"> Analisis Kemiskinan Daerah Data POdes 2021</h5>
-<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa. Voluptas dolorem tenetur rem voluptates sit deleniti dicta, temporibus ipsam, placeat possimus numquam, aut inventore. Architecto repellendus odit non eos?</p>
+<!-- <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa. Voluptas dolorem tenetur rem voluptates sit deleniti dicta, temporibus ipsam, placeat possimus numquam, aut inventore. Architecto repellendus odit non eos?</p> -->
 <br>
 
 <!-- <div class="container-fluid">
